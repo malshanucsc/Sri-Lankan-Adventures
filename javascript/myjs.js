@@ -1,10 +1,10 @@
-<script language="javascript">
+/*<script language="javascript">
 	var slideIndex=0;
 	showSlides();
 	
 	function showSlides(){
 		var i;
-		var slides=document.getElementsByClassName("mySlides");
+		var slides=document.getElementsByClassName("myslides");
 		var dots=document.getElementsByClassName("dot");
 		
 		for(i=0;i<slides.length;i++)
@@ -13,7 +13,7 @@
 			
 		}
 		slideIndex++;
-		if(slideIndex>slide.length)
+		if(slideIndex>slides.length)
 		{
 			slideIndex=1
 		}
@@ -31,3 +31,4 @@
 		
 	}
 </script>
+*/
