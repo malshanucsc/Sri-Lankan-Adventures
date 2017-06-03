@@ -29,11 +29,20 @@
 				  </select>
 		<input type="submit" id="search_button" value="search"/>
 	</div>
+<<<<<<< HEAD
 	<br><br>
 	<br><br>
 	
 			
 <!--<div class="slideshow-container">
+=======
+	<br><br>
+	<br><br>
+	
+			
+<!--<div class="slideshow-container">
+
+>>>>>>> f1f5bf00eb4f29c02944a92fbd6b0e81994514a0
 <div class="myslides fade">
 	<div class="numbertext">1/7</div>
 	<img src= "../images/Sri-Lanka-Tourism-campaign-1.png"  style="width:80%">
