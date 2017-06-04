@@ -4,19 +4,20 @@
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
 	<script src="../javascript/myjs.js"></script>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
 </head>
-<body>
-<div id="full_page">
+<body style="background-color:#6b6b47">
+<div id="full_page" >
 	<div id="header" class="col-md-12" >
 		<div class= "col-md-2 " >
 			<img  id="logo" src="../images/logo.png" >
 		</div>
 		<div class="col-md-6" id="topic">
-			<h1>Sri Lankan Adventures </h1>
+			Sri Lankan Adventures 
 		</div>
 	</div>	
 
-	<div id="upbanner">Looking for a <select>
+	<div id="upbanner"><h4>Looking for a <select>
 				  <option value="1">Whale Watching</option>
 				  <option value="2">Wild safari</option>
 				  <option value="3">Surfing</option>
@@ -27,178 +28,165 @@
 				  <option value="8">Ayurvedic spa</option> 
 				  <option value="9">Meditation and Yoga</option>
 				  </select>
-		<input type="submit" id="search_button" value="search"/>
+		<input type="submit" id="search_button" value="search"/></h4>
 	</div>
-<<<<<<< HEAD
-	<br><br>
-	<br><br>
+	<br>
 	
-			
-<!--<div class="slideshow-container">
-=======
-	<br><br>
-	<br><br>
-	
-			
-<!--<div class="slideshow-container">
+	<div class="slideshow-container ;col-md-6" >
 
->>>>>>> f1f5bf00eb4f29c02944a92fbd6b0e81994514a0
-<div class="myslides fade">
-	<div class="numbertext">1/7</div>
-	<img src= "../images/Sri-Lanka-Tourism-campaign-1.png"  style="width:80%">
-	<div class="text"><h3>Welcome to Sri Lanka</h3></div>
- </div>
- <div class="myslides fade">
-	<div class="numbertext">2/7</div>
-	<img src="../images/tangalla.jpg" style="width:80%">
-	<div class="text"><h3>Climate variation</h3></div>
-</div>
-<div class="myslides fade">
-	<div class="numbertext">3/7</div>
-	<img src="../images/image4.jpg" style="width:80%">
-	<div class="text"><h3> Plenty of wild life </h3></div>
-</div>
-<div class="myslides fade">
-	<div class="numbertext">4/7</div>
-	<img src="../images/images.jpg" style="width:80%">
-	<div class="text"><h3> Sri lanakan culture </h3></div>
-</div>
-<div class="myslides fade">
-	<div class="numbertext">5/7</div>
-	<img src="../images/dambullacavetemple_3465946a-xlarge.jpg" style="width:80%">
-	<div class="text"><h3>Proud History </h3></div>
-</div>
-<div class="myslides fade">
-	<div class="numbertext">6/7</div>
-	<img src="../images/hillcountry.jpg" style="width:80%">
-	<div class="text"><h3>Sri Lankan Upper Hills </h3></div>
-</div>
-<div class="myslides fade">
-	<div class="numbertext">5/7</div>
-	<img src="../images/river.jpg" style="width:80%">
-	<div class="text"><h3>Plenty of Rivers</h3></div>
-</div>
-</div>
-<div style="text-align:right">
-	<span class="dot"></span>
-	<span class="dot"></span>
-	<span class="dot"></span>
-	<span class="dot"></span>
-	<span class="dot"></span>
-	<span class="dot"></span>
-	<span class="dot"></span>
-</div>
-</div>-->
-<div class="col-md-12">
-<div id="first-slider" class="col-md-10" >
-    <div id="carousel-example-generic" class="carousel slide carousel-fade">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <!-- Item 1 -->
-            <div class="item active slide1">
-                <div class="row"><div class="container">
-                    <div class="col-md-3 text-right">
-                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="../images/Sri-Lanka-Tourism-campaign-1.png"> 
-                    </div>
-                    <div class="col-md-9 text-left">
-                        <h3 data-animation="animated bounceInDown">WELCOME TO SRI LANKA</h3>
-                                    
-                     </div>
-                </div></div>
-             </div> 
-            <!-- Item 2 -->
-            <div class="item slide2">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">CLIMATE VARIATION</h3>
-                       
-                     </div>
-                    <div class="col-md-5 text-right">
-					
-                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="../images/tangalla.jpg">
-                    </div>
-                </div></div>
-            </div>
-            <!-- Item 3 -->
-            <div class="item slide3">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">PLENTY OF WILS LIFE</h3>
-                      
-                     </div>
-                    <div class="col-md-5 text-right">
-                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="../images/image4.jpg">
-                    </div>     
-                </div></div>
-            </div>
-            <!-- Item 4 -->
-            <div class="item slide4">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">SRI LANKAN CULTURE</h3>
-                        
-                     </div>
-                    <div class="col-md-5 text-right">
-                       <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="../images/images.jpg"> 
-                    </div>  
-                </div></div>
-            </div>
-            <!-- End Item 4 -->
-			<div class="item slide4">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">PROUD HISTORY</h3>
-                        
-                     </div>
-                    <div class="col-md-5 text-right">
-                       <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="../images/dambullacavetemple_3465946a-xlarge.jpg"> 
-                    </div>  
-                </div></div>
-            </div>
-			<div class="item slide4">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">SRI LANKAN UPPER HILLS</h3>
-                        
-                     </div>
-                    <div class="col-md-5 text-right">
-                       <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="../images/hillcountry.jpg"> 
-                    </div>  
-                </div></div>
-            </div>
-			<div class="item slide4">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">PLENTTY OF RIVERS</h3>
-                        
-                     </div>
-                    <div class="col-md-5 text-right">
-                       <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="../images/river.jpg"> 
-                    </div>  
-                </div></div>
-            </div>
-        </div>
-        <!-- End Wrapper for slides-->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
+	<div class="mySlides fade ">
+  <div class="numbertext">1 / 7</div>
+  <img src="../images/Sri-Lanka-Tourism-campaign-1.png" style="width:965px;height:357px">
+  <div class="text">WELCOME TO SRI LANKA</div>
 </div>
 
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="../images/tangalla.jpg" style="width:965px;height:357px">
+  <div class="text">CLIMATE VARIATION</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="../images/image4.jpg" style="width:965px;height:357px">
+  <div class="text">PLENTY OF WILD LIFE</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="../images/images.jpg" style="width:965px;height:357px">
+  <div class="text">SRI LANKAN CULTURE</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="../images/dambullacavetemple_3465946a-xlarge.jpg" style="width:965px;height:357px">
+  <div class="text">PROUD HISTORY</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="../images/hillcountry.jpg" style="width:965px;height:357px">
+  <div class="text">SRI LANKAN UPPER HILLS</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="../images/river.jpg" style="width:965px;height:357px">
+  <div class="text">PLENTY OF RIVERS</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="col-md-12" id="upmenu">
+
+			<ul class="nav nav-pills">
+				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#">Activities</a></li>
+				<li role="presentation"><a href="#">Places</a></li>
+				<li role="presentation"><a href="#">Gallery</a></li>
+				<li role="presentation"><a href="#">Contact Us</a></li>
+			</ul>
+</div>
+<br>
+<br>
+<br>
+	<div id="paragraph">
+		<p> Sri Lanka is an amazing tiny island surrounded by the bluish Indian Oean.Because of the enchanting beauty of this island it is named as the pearl of the Indian Ocean.It is the beauty queen all over the world
+and the calm and quite nature of her afford a great relaxation.</p>
+	</div>
+
+<div id="photoGallery">
+
+<div class="gallery">
+  <a target="_blank" href="../images/sri_lanka_turtle-700x394.jpg">
+    <img src="../images/sri_lanka_turtle-700x394.jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">Sea Side</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../images/traditional-dances-of-sri-lanka-august-2011-2.jpg">
+    <img src="../images/traditional-dances-of-sri-lanka-august-2011-2.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Culture</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../images/5.jpg">
+    <img src="../images/5.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Historical</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../images/tea.jpg">
+    <img src="../images/tea.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Hill Country</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../images/deer.jpg">
+    <img src="../images/deer.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Wild Life</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="../images/Mahaweli_Ganga_by_Gampola.jpg">
+    <img src="../images/Mahaweli_Ganga_by_Gampola.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">River Side</div>
+</div>
+
+</div>
+<br><br><br><br>
+<div id="service">
+<p><h1>OUR SERVICE</h1>
+
+You will never feel strange when we are in your service.We accept the responsibility of providing a friendly and secure tour for you with full of trust.
+We are eager to direct you to the places you love to visit, without any hesitation.
+By contacting us you will be able to find out the best suited places for your journey according to your taste and also you can seek for most comfortable and safe places for accommodation.
+From the arrival to Sri Lanka till the departure we will serve you heartfully creating remarkable memories of a wonderful journey in your heart. 
+</p>
+</div>
+<br>
+<br>
+<br>
+<div id="downbanner" class="col-md-12" >
+
+                  &copy; sawanisasanka@gmail.com
+                    
+</div>
+</div>
 </body>
 </html>
