@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
-<body style="background-color: #e6ffd7;">
+<body >
 <div id="full_page" >
 	<div id="header" class="col-md-12" >
 		<div class= "col-md-2 " >
@@ -63,18 +63,18 @@
                     <div class="col-md-3 text-right">
                       <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
                     </div>
-                    <div class="col-md-9 text-left">
-                        <h3 data-animation="animated bounceInDown">Your Home</h3>
-                        <h4 data-animation="animated bounceInUp">Calm environment</h4>             
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown">WELCOME</h3>
+                        <h4 data-animation="animated bounceInUp">SRILANKA</h4>             
                      </div>
                 </div></div>
              </div> 
             <!-- Item 2 -->
             <div class="item slide2">
                 <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">Your Home</h3>
-                        <h4 data-animation="animated bounceInUp">All the facilities you want </h4>
+                    <div class="col-md-9 text-left">
+                        <h3 data-animation="animated bounceInDown">CLIMATE VARIATION</h3>
+                        <h4 data-animation="animated bounceInUp">SRI LANKAN SEA SIDES </h4>
                      </div>
                     <div class="col-md-5 text-right">
           
@@ -86,8 +86,8 @@
             <div class="item slide3">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">Surfing</h3>
-                        <h4 data-animation="animated bounceInUp">Adventures Surfing</h4>
+                        <h3 data-animation="animated bounceInDown">PLENTY OF WILD LIFE</h3>
+                        <h4 data-animation="animated bounceInUp">SRI LANKAN RAIN FORESTS</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png"> -->
@@ -98,8 +98,8 @@
             <div class="item slide4">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">Whale watching</h3>
-                        <h4 data-animation="animated bounceInUp">Get close to the sea</h4>
+                        <h3 data-animation="animated bounceInDown">SRI LANKAN CULTURE</h3>
+                        <h4 data-animation="animated bounceInUp">AYURVEDA MEDICINES</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -112,8 +112,8 @@
             <div class="item slide5">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">Whale watching</h3>
-                        <h4 data-animation="animated bounceInUp">Get close to the sea</h4>
+                        <h3 data-animation="animated bounceInDown">SRI LANKAN UPPER HILLS</h3>
+                        <h4 data-animation="animated bounceInUp">SRI LANKAN WATERFALLS</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -126,8 +126,8 @@
             <div class="item slide6">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">Whale watching</h3>
-                        <h4 data-animation="animated bounceInUp">Get close to the sea</h4>
+                        <h3 data-animation="animated bounceInDown">PROUD HISTORY</h3>
+                        <h4 data-animation="animated bounceInUp">SRI LANKAN CAVE TEMPLES</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -140,8 +140,8 @@
             <div class="item slide7">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">Whale watching</h3>
-                        <h4 data-animation="animated bounceInUp">Get close to the sea</h4>
+                        <h3 data-animation="animated bounceInDown">PLENTY OF RIVERS</h3>
+                        <h4 data-animation="animated bounceInUp">PICTURESQUE VIEW</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -150,20 +150,7 @@
             </div>
             <!-- End Item 7 -->
 
-                        <!-- Item 8 -->
-            <div class="item slide7">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">Whale watching</h3>
-                        <h4 data-animation="animated bounceInUp">Get close to the sea</h4>
-                     </div>
-                    <div class="col-md-5 text-right">
-                        <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
-                    </div>  
-                </div></div>
-            </div>
-            <!-- End Item 8 -->
-    
+                        
         </div>
         <!-- End Wrapper for slides-->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">

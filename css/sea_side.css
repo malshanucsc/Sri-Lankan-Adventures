@@ -1,4 +1,6 @@
-
+body{
+	background-color:#9999ff !important;
+}
 #full_page{
 	margin-left:5%;
 	/*margin-top:5%;*/
@@ -9,11 +11,6 @@
 #logo{
 	width:100%;
 }
-
-body{
-	background-color: #9999ff !important;
-}
-	
 #topic{ 
 		font-family:Comic Sans MS;
 		color:black;
@@ -31,87 +28,7 @@ body{
 	padding-top: 10px;
 	margin-left:27%;
 	color:black;
-
 }
-/*
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;}
-.mySlides {display:none;
-
-
-}
-
-
-.slideshow-container {
-  max-width: 80%;
-
-  margin: auto;
- border-style:solid;
-}
-
-
-.text {
-  color: 
-
-	 #ff3300;
-  font-size: 30px;
-  padding: 8px 8px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: left;
-
-  font-family:Comic Sans MS;
-  font-weight:bold;
-}
-
-
-.numbertext {
-  color: #ff3300;
-  font-size: 20px;
-  
-  position: absolute;
- 
-}
-
-
-.dot {
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s;
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-*/
 .nav-pills a{
 	color:black;
 	font-weight:bold;
@@ -119,60 +36,6 @@ body {font-family: Verdana,sans-serif;}
 	background-color: #336600;
 	
 }
-#paragraph{
-	margin-left:15%;
-	width:70%;
-	font-size:20px;
-	color:black;
-	
-}
-.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-	margin-left:10%;
-	
-}
-
-.gallery:hover {
-    border: 1px solid #777;
-}
-
-.gallery img {
-    width: 100%;
-    height: 150px;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-	font-weight:bold;
-	color:black;
-}
-#photoGallery{
-	margin-left:10%;
-	width:80%;
-}
-#downbanner{
-	margin-top:0%;
-	margin-left:10%;
-	
-}
-#service{
-	margin-left:10%;
-	width:80%;
-margin-top: 30%;
-	font-weight:bold;
-	color:black;
-
-}
-
-
-
-
-
-
 #first-slider{
 	/*margin-top: 13%;*/
 margin-left: 10%;
@@ -190,20 +53,20 @@ margin-right:10%;
 }
 
 
-#first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3, #first-slider .slide5 h3, #first-slider .slide6 h3, #first-slider .slide7 h3, #first-slider .slide8 h3{
+#first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3, #first-slider .slide5 h3, #first-slider .slide6 h3{
     color: #fff;
     font-size: 30px;
       text-transform: uppercase;
       font-weight:700;
 }
 
-#first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4,#first-slider .slide5 h4,#first-slider .slide6 h4,#first-slider .slide7 h4,#first-slider .slide8 h4{
+#first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4,#first-slider .slide5 h4,#first-slider .slide6 h4{
     color: #fff;
     font-size: 30px;
       text-transform: uppercase;
       font-weight:700;
 }
-#first-slider .slide1 .text-left ,#first-slider .slide3 .text-left,#first-slider .slide5 .text-left,#first-slider .slide7 .text-left{
+#first-slider .slide1 .text-left ,#first-slider .slide3 .text-left,#first-slider .slide5 .text-left{
     padding-left: 40px;
 }
 
@@ -345,43 +208,39 @@ margin-right:10%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/first.jpg);
+    background-image: url(../images/sea1.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/tangalla.jpg);
+  background-image: url(../images/image2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/image4.jpg);
+  background-image: url(../images/sea2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/images.jpg);
+  background-image: url(../images/sea3.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #first-slider .slide5 {
-    background-image: url(../images/hillcountry.jpg);
+    background-image: url(../images/sea4.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #first-slider .slide6 {
-    background-image: url(../images/dambullacavetemple_3465946a-xlarge.jpg);
+    background-image: url(../images/sea5.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-#first-slider .slide7 {
-    background-image: url(../images/rivers.jpg);
-      background-size:100% 100%;
-    background-repeat: no-repeat;
-}
+
 
 
 }
@@ -394,19 +253,3 @@ margin-right:10%;
 	margin-top:15%;
 	margin-left:15%;
 }
-
-
-/********************************/
-/*          Media Queries       */
-/********************************/
-@media screen and (min-width: 980px){
-      
-}
-@media screen and (max-width: 640px){
-      
-}
-
-
-
-
-
