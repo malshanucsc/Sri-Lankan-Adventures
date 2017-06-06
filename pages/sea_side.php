@@ -211,7 +211,9 @@
 </div>
 </div>
 </div>
-
+  <script type="text/javascript" src="../javascript/jquery.js"></script>
+  <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
+<script src="../javascript/myjs.js"></script>
 </body>
 </html>
 
