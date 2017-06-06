@@ -211,7 +211,7 @@ and the calm and quite nature of her afford a great relaxation.</p>
 <div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="../images/sri_lanka_turtle-700x394.jpg">
+  <a target="_blank" href="sea_side.php">
     <img src="../images/sri_lanka_turtle-700x394.jpg" alt="Fjords" width="300" height="200">
   </a>
   <div class="desc">Sea Side</div>
