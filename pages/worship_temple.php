@@ -1,8 +1,8 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/whale_watching.css">
+	<link rel="stylesheet" type="text/css" href="../css/worship_temple.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
-	<script src="../javascript/whale_watching.js"></script>
+	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
@@ -58,8 +58,8 @@
                       <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
                     </div>
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE WATCHING</h3>
-                        <h4 data-animation="animated bounceInUp">whale watching is a very good experience.It,s good for heart patients as it makes the human minds very calm.</h4>             
+                        <h3 data-animation="animated bounceInDown">ANCIENT TEMPLES/h3>
+                        <h4 data-animation="animated bounceInUp">sri lankan cukture is influenced by the buddhism very much.. so there are plenty of ancient temples to worship in sri lanka. </h4>             
                      </div>
                 </div></div>
              </div> 
@@ -67,8 +67,8 @@
             <div class="item slide2">
                 <div class="row"><div class="container">
                     <div class="col-md-9 text-left">
-                        <h3 data-animation="animated bounceInDown">BOTTLENOSE DOLPHIN</h3>
-                        <h4 data-animation="animated bounceInUp">bottle nose dolphin groups can be seen in the srilakan seas. these friendly animlas are very cuteand attractie. </h4>
+                        <h3 data-animation="animated bounceInDown">STATUES OF LORD BUDDHA</h3>
+                        <h4 data-animation="animated bounceInUp">you can worship the large statues of lord buddha hat sri lankan craftsmen have created by giving adding creatively to a rock. </h4>
                      </div>
                     <div class="col-md-5 text-right">
           
@@ -80,8 +80,8 @@
             <div class="item slide3">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">BLUE WHALE</h3>
-                        <h4 data-animation="animated bounceInUp">swimming blue whale can  be seen in the sri lanakan seas.  </h4>
+                        <h3 data-animation="animated bounceInDown">SACRED SRI MAHA BODHI TREE</h3>
+                        <h4 data-animation="animated bounceInUp">the sacred sri maha bodhi tre in anuradhapura is recognized as the oldest surviving hostorical tree in the world..  </h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png"> -->
@@ -92,8 +92,8 @@
             <div class="item slide4">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE FAMILY</h3>
-                        <h4 data-animation="animated bounceInUp">sri lankan seas provides nice sites of whale families... </h4>
+                        <h3 data-animation="animated bounceInDown">STATUES OF LORD BUDDHA</h3>
+                        <h4 data-animation="animated bounceInUp">you can worship the large statues of lord buddha hat sri lankan craftsmen have created by giving adding creatively to a rock. </h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -130,33 +130,29 @@
 <br>
 <br>
 <div id="paragraph">
-<p><h2>Whale Watching</h2> Indian Ocean which surrounds Sri Lanka is becoming a crowning location for nature lovers who are interested in whale and dolphin watching. Here you can achieve a fascinating chance of capturing blue whales, Sperm whales and Spinner Dolphins .Dondra point,Mirissa can be defined as the best place to watch whales while Kalpitiya is the best place to watch dolphins. Reliable and Secure Whale and Dolphin watching trips are frequently arranged for nature lovers under the guidance of well-trained guides.
+<p><h2>worship ancient temples</h2> After the arrival of Buddhism in Sri Lanka during the 3rd Century B.C, constructing temples or shrines where monks can reside and people can gather for religious activities began. The first ever Buddhist temples were built during the time of Anuradhapura kingdom. For anyone with a special Interest in Sri Lankan Buddhist history or the unique and mesmerizing architecture of these shrines visiting some of these Temples will be a memorable experience.
 
-Sri Lanka is becoming a major spot for watching Whales and Dolphins. Dondra Point of down south in Sri Lanka is the main port of Whale Watching in Sri Lanka during December to April. This is Amazing, The ultimate Ceylon cruise where you can experience scenic highlights of Sri lanka and it's surrounding islands plus it's marine mammals including dolphins and whales in the beautiful Sri Lankan Seas
+The temple of tooth relic (Dalada Maligawa) is the most visited Shrine which is situated in an attractive location in Kandy with a magnificent view. This temple is where the tooth relic of Lord Buddha is displayed to devotees. Also it has other features to explore such as architecture and murals. Apart from that shrines such as Rangiri Dambulla temple, the eight sacred places of Anuradhapura (Atamasthana) including Jaya Sri Maha Bodhi and also Kelaniya Rajamaha Viharaya.
 
-Whales, and dolphins or see small pods of dolphins playing around the boat. Wherever the most exciting whale and dolphin activity is, we aim to find it for you. Plus show you some of the most significant cultural and historical parts of this amazing maritime park.
+You can learn a lot about the Culture of Sri Lankan Buddhist people and the history of Sri Lanka by visiting these shrines.
 </p>
 </div>
 <div id="info">
-<h2>Places for Whale Watching</h2>
-	<ul>
-		<li>Mirissa Beach</li>
-		
-	</ul>
+
 <h2>Facilitate Agents:</h2>
 </div>
 <div class="gallery">
   
-    <img src="../images/whale_boat.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
+    <img src="../images/tour.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   
-  <div class="desc"><h1>Whale Watching</h1><h2>speed liner</h2><h3>mirissa</h3> contact number:0771234567</div>
+  <div class="desc"><h1>Round Tours</h1><h3>mirissa</h3> contact number:0771234567</div>
 </div>
 <div id="abc">
 <!-- Popup Div Starts Here -->
 <div id="popupContact">
 <!-- Contact Us Form -->
 <form action="#" id="form" method="post" name="form">
-<img id="close" src="../images/ whale_boat.jpg" onclick ="div_hide()">
+<img id="close" src="../images/ tour.jpg" onclick ="div_hide()">
 <h2 id="contact">Contact Us</h2>
 <hr>
 <input id="name" name="name" placeholder="Name" type="text">
@@ -174,7 +170,7 @@ Whales, and dolphins or see small pods of dolphins playing around the boat. Wher
 </div>
 <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
-<script src="../javascript/whale_watching.js"></script>
+<script src="../javascript/worship_temple.js"></script>
 </body>
 </html>
 

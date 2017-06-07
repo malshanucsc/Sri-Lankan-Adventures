@@ -1,8 +1,8 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/whale_watching.css">
+	<link rel="stylesheet" type="text/css" href="../css/meditation.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
-	<script src="../javascript/whale_watching.js"></script>
+	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
@@ -58,8 +58,8 @@
                       <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
                     </div>
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE WATCHING</h3>
-                        <h4 data-animation="animated bounceInUp">whale watching is a very good experience.It,s good for heart patients as it makes the human minds very calm.</h4>             
+                        <h3 data-animation="animated bounceInDown">SRI LANKAN MEDITATION AND YOGA</h3>
+                        <h4 data-animation="animated bounceInUp">sri lanka has a culture of praccticing meditation.soif you are interested in meditation sri lanka is the perfect place.</h4>             
                      </div>
                 </div></div>
              </div> 
@@ -67,8 +67,8 @@
             <div class="item slide2">
                 <div class="row"><div class="container">
                     <div class="col-md-9 text-left">
-                        <h3 data-animation="animated bounceInDown">BOTTLENOSE DOLPHIN</h3>
-                        <h4 data-animation="animated bounceInUp">bottle nose dolphin groups can be seen in the srilakan seas. these friendly animlas are very cuteand attractie. </h4>
+                        <h3 data-animation="animated bounceInDown">MEDITATION AND YOGA PRACTICE</h3>
+                        <h4 data-animation="animated bounceInUp">people in differen religions practicing meditation as it helps to strengthen the mind. Sri lanka got very quite place to practice meditation and yoga.</h4>
                      </div>
                     <div class="col-md-5 text-right">
           
@@ -80,9 +80,8 @@
             <div class="item slide3">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">BLUE WHALE</h3>
-                        <h4 data-animation="animated bounceInUp">swimming blue whale can  be seen in the sri lanakan seas.  </h4>
-                     </div>
+                        <h3 data-animation="animated bounceInDown">LEARN MEDITATION AND YOGA</h3>
+                        <h4 data-animation="animated bounceInUp"> sri lanka is a country that fulled with quite paces. so you can practic editation </h4>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png"> -->
                     </div>     
@@ -92,8 +91,8 @@
             <div class="item slide4">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE FAMILY</h3>
-                        <h4 data-animation="animated bounceInUp">sri lankan seas provides nice sites of whale families... </h4>
+                        <h3 data-animation="animated bounceInDown">MEDITATION AND YOGA</h3>
+                        <h4 data-animation="animated bounceInUp">sri anka is the one of  the worlds best country to do yoga and meditation </h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -130,26 +129,54 @@
 <br>
 <br>
 <div id="paragraph">
-<p><h2>Whale Watching</h2> Indian Ocean which surrounds Sri Lanka is becoming a crowning location for nature lovers who are interested in whale and dolphin watching. Here you can achieve a fascinating chance of capturing blue whales, Sperm whales and Spinner Dolphins .Dondra point,Mirissa can be defined as the best place to watch whales while Kalpitiya is the best place to watch dolphins. Reliable and Secure Whale and Dolphin watching trips are frequently arranged for nature lovers under the guidance of well-trained guides.
+<p><h2>Yoga and Meditation</h2>  Meditation
 
-Sri Lanka is becoming a major spot for watching Whales and Dolphins. Dondra Point of down south in Sri Lanka is the main port of Whale Watching in Sri Lanka during December to April. This is Amazing, The ultimate Ceylon cruise where you can experience scenic highlights of Sri lanka and it's surrounding islands plus it's marine mammals including dolphins and whales in the beautiful Sri Lankan Seas
+In Sri Lanka, which is a land like no other you find the rare opportunity to visit meditation centers located all around the island which offers you guidance to meditate for free. As a Buddhist country in which the majority of people practice the unique living style preached by Lord Buddha meditation is an important and very rewarding practice. It helps one to travel to the intricacy of one's mind and discover the inner piece which is found to be most effective when followed with a simple lifestyle and vegetarian diet.<br><br>
 
-Whales, and dolphins or see small pods of dolphins playing around the boat. Wherever the most exciting whale and dolphin activity is, we aim to find it for you. Plus show you some of the most significant cultural and historical parts of this amazing maritime park.
-</p>
+Benefits of Meditation
+	<ul>
+	<li>Lowers blood preasure</li>
+	<li>It  could help the elderly feel less  lonely </li>
+	<li>Improve imotional balance</li>
+	<li>Anti-inflamatory</li>
+	<li>Incesed immunity</li>
+	</ul>
+	Meditation is found by scientists to be a medication for mind and soul which gives bliss and the ability to see around you in a different way and helps you to escape the stress and strain of your daily busy lifestyle. By mediating you will be able to understand the ever-changing nature of life, let go of harmful feelings such as hate, jealousy, lust and let in peaceful happy thoughts such as contentment, patience and love for all living beings. It will help you improve your mental balance, ease your fatigue and awaken your mind and soul for a new life.<br><br>
+	yoga<br>
+	Yoga is a philosophy. It is an art of living science. This is the oldest personality development training in the world. It was origin in India over than 5000 years than ago in India.You can Practice these Yoga Methods Under good Sri Lankan Yoga Instructors in Sri Lanka. There were various yoga methods in Sri Lanka.
+	<br>
+	They are,
+	<ul>
+	<li>Mantra yoga</li>
+	<li>Bhakthi yoga</li>
+	<li>Laya yoga</li>
+	<li>Karma yoga</li>
+	<li>Raja yoga</li>etc
+	</ul>
+	In modern time we are living very stressful life. Because people have no satisfaction of their life that they live. Modern living looks like competition between people. Lot of them has not time to thinking about their health, No enough time for stay with family,
+
+	lot of them suffering with their crazy life. Many people have physical and mental problems. It is increasing day by day as percentage.<br><br>
+	
+	Benefits of yoga <br>
+	<ul>
+	<li>reduce extra fat and growing beauty</li>
+	<li>develop ppersonality</li>
+	<li>release tension and better sleep</li>
+	<li>cure common diseases/li>
+	<li>Health,Wealth and long life</li>
+	<li>Develop concentration and brainpower</li>
+	</ul>
+	</p>
 </div>
 <div id="info">
-<h2>Places for Whale Watching</h2>
-	<ul>
-		<li>Mirissa Beach</li>
-		
-	</ul>
+
 <h2>Facilitate Agents:</h2>
 </div>
 <div class="gallery">
   
-    <img src="../images/whale_boat.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
+    <img src="../images/instructor.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   
-  <div class="desc"><h1>Whale Watching</h1><h2>speed liner</h2><h3>mirissa</h3> contact number:0771234567</div>
+  <div class="desc"><h1>Yoga Instructor</h1><h2>Yogi</h2><h3>mirissa</h3> contact number:0771234567</div>
 </div>
 <div id="abc">
 <!-- Popup Div Starts Here -->
@@ -174,7 +201,7 @@ Whales, and dolphins or see small pods of dolphins playing around the boat. Wher
 </div>
 <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
-<script src="../javascript/whale_watching.js"></script>
+<script src="../javascript/meditation.js"></script>
 </body>
 </html>
 

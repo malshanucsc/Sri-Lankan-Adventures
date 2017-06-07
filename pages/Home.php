@@ -218,35 +218,35 @@ and the calm and quite nature of her afford a great relaxation.</p>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="../images/traditional-dances-of-sri-lanka-august-2011-2.jpg">
+  <a target="_blank" href="studying_culture.php">
     <img src="../images/traditional-dances-of-sri-lanka-august-2011-2.jpg" alt="Forest" width="300" height="200">
   </a>
   <div class="desc">Culture</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="../images/5.jpg">
+  <a target="_blank" href="historical.php">
     <img src="../images/5.jpg" alt="Northern Lights" width="300" height="200">
   </a>
   <div class="desc">Historical</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="../images/tea.jpg">
+  <a target="_blank" href="hill_country.php">
     <img src="../images/tea.jpg" alt="Mountains" width="300" height="200">
   </a>
   <div class="desc">Hill Country</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="../images/deer.jpg">
+  <a target="_blank" href="wildlife.php">
     <img src="../images/deer.jpg" alt="Mountains" width="300" height="200">
   </a>
   <div class="desc">Wild Life</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="../images/Mahaweli_Ganga_by_Gampola.jpg">
+  <a target="_blank" href="river.php">
     <img src="../images/Mahaweli_Ganga_by_Gampola.jpg" alt="Mountains" width="300" height="200">
   </a>
   <div class="desc">River Side</div>

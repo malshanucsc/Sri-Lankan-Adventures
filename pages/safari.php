@@ -1,8 +1,8 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/whale_watching.css">
+	<link rel="stylesheet" type="text/css" href="../css/safari.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
-	<script src="../javascript/whale_watching.js"></script>
+	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
@@ -58,8 +58,8 @@
                       <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
                     </div>
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE WATCHING</h3>
-                        <h4 data-animation="animated bounceInUp">whale watching is a very good experience.It,s good for heart patients as it makes the human minds very calm.</h4>             
+                        <h3 data-animation="animated bounceInDown">SAFARI</h3>
+                        <h4 data-animation="animated bounceInUp">to see and study the asian wild lif sri lanka is the perfect place.every wild life lover must visit these national parks..</h4>             
                      </div>
                 </div></div>
              </div> 
@@ -67,8 +67,8 @@
             <div class="item slide2">
                 <div class="row"><div class="container">
                     <div class="col-md-9 text-left">
-                        <h3 data-animation="animated bounceInDown">BOTTLENOSE DOLPHIN</h3>
-                        <h4 data-animation="animated bounceInUp">bottle nose dolphin groups can be seen in the srilakan seas. these friendly animlas are very cuteand attractie. </h4>
+                        <h3 data-animation="animated bounceInDown">PLENTY OF WILD ANIMALS</h3>
+                        <h4 data-animation="animated bounceInUp">eventhough sri lanka is a small island thw bio-diversity is very high. any one who visit these animal kingdoms thrilled by these amazing views..</h4>
                      </div>
                     <div class="col-md-5 text-right">
           
@@ -80,8 +80,8 @@
             <div class="item slide3">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">BLUE WHALE</h3>
-                        <h4 data-animation="animated bounceInUp">swimming blue whale can  be seen in the sri lanakan seas.  </h4>
+                        <h3 data-animation="animated bounceInDown">FULL OF LIFE<h3>
+                        <h4 data-animation="animated bounceInUp">no doubt sri lanka is the place give you maximum pleasure of watching the real wild life than any other ccountry in the world..</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png"> -->
@@ -92,8 +92,8 @@
             <div class="item slide4">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE FAMILY</h3>
-                        <h4 data-animation="animated bounceInUp">sri lankan seas provides nice sites of whale families... </h4>
+                        <h3 data-animation="animated bounceInDown">ADVENTURE ALL AROUND</h3>
+                        <h4 data-animation="animated bounceInUp">as you are in these jungles you will never know what kind of animals will come out from it,from cute rabbits to dangerous leopards all creatures are sheltered by these jungles..</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -130,51 +130,32 @@
 <br>
 <br>
 <div id="paragraph">
-<p><h2>Whale Watching</h2> Indian Ocean which surrounds Sri Lanka is becoming a crowning location for nature lovers who are interested in whale and dolphin watching. Here you can achieve a fascinating chance of capturing blue whales, Sperm whales and Spinner Dolphins .Dondra point,Mirissa can be defined as the best place to watch whales while Kalpitiya is the best place to watch dolphins. Reliable and Secure Whale and Dolphin watching trips are frequently arranged for nature lovers under the guidance of well-trained guides.
+<p><h3>WILD SAFARI</h3> Despite the fact Sri Lanka is a small Island it is gifted with many wild life attractions such as Game Parks, Rain Forests, scenic Forests and Mountainous reserves. These places mostly offer institutes with easy safari Game Park viewing in Jeeps and some of these wild life attractions require the explorer to walk or trek in order to witness them.
 
-Sri Lanka is becoming a major spot for watching Whales and Dolphins. Dondra Point of down south in Sri Lanka is the main port of Whale Watching in Sri Lanka during December to April. This is Amazing, The ultimate Ceylon cruise where you can experience scenic highlights of Sri lanka and it's surrounding islands plus it's marine mammals including dolphins and whales in the beautiful Sri Lankan Seas
+Sri Lanka is most popular for its large population of Elephants and Leopards. Also there are many other interesting species including Sloth Bears, Crocodiles, Different varieties of deer, Monkeys, over four hundred varieties of Birds of which many are indigenous.
 
-Whales, and dolphins or see small pods of dolphins playing around the boat. Wherever the most exciting whale and dolphin activity is, we aim to find it for you. Plus show you some of the most significant cultural and historical parts of this amazing maritime park.
+The most popular wild life attractions in Sri Lanka consists of Yala National Park, Udawalawe National Park, Wilpattu National Park, Sinharaja Rain Forest, Horton Plains, Knuckles Mountain Range and Wasgamuwa National Park.
+
+You can go on a safari Jeep tour a hiking trail or a tented safari Camp depending on the nature of the Wild life reserve and your desire.
+
+
 </p>
 </div>
 <div id="info">
-<h2>Places for Whale Watching</h2>
+<h4>Places for visit</h4>
 	<ul>
-		<li>Mirissa Beach</li>
-		
+		<li>yala national park</li>
+		<li>wasgamuwa park</li>
+		<li>wilpaththu national park</li>
+		<li>udawalawa national park</li>
 	</ul>
-<h2>Facilitate Agents:</h2>
-</div>
-<div class="gallery">
-  
-    <img src="../images/whale_boat.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
-  
-  <div class="desc"><h1>Whale Watching</h1><h2>speed liner</h2><h3>mirissa</h3> contact number:0771234567</div>
-</div>
-<div id="abc">
-<!-- Popup Div Starts Here -->
-<div id="popupContact">
-<!-- Contact Us Form -->
-<form action="#" id="form" method="post" name="form">
-<img id="close" src="../images/ whale_boat.jpg" onclick ="div_hide()">
-<h2 id="contact">Contact Us</h2>
-<hr>
-<input id="name" name="name" placeholder="Name" type="text">
-<input id="email" name="email" placeholder="Email" type="text">
-<textarea id="msg" name="message" placeholder="Message"></textarea>
-<a href="javascript:%20check_empty()" id="submit">Send</a>
-</form>
-</div>
-<!-- Popup Div Ends Here -->
-</div>
-<!-- Display Popup Button -->
-
-<button id="popup" onclick="div_show()">contact us</button>
 
 </div>
-<script type="text/javascript" src="../javascript/jquery.js"></script>
+</div>
+  <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
-<script src="../javascript/whale_watching.js"></script>
+<script src="../javascript/myjs.js"></script>
 </body>
 </html>
+
 

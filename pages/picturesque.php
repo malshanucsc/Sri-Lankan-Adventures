@@ -1,8 +1,8 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/whale_watching.css">
+	<link rel="stylesheet" type="text/css" href="../css/picturesque.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
-	<script src="../javascript/whale_watching.js"></script>
+	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
@@ -58,8 +58,8 @@
                       <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
                     </div>
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE WATCHING</h3>
-                        <h4 data-animation="animated bounceInUp">whale watching is a very good experience.It,s good for heart patients as it makes the human minds very calm.</h4>             
+                        <h3 data-animation="animated bounceInDown">FRUITFUL SRILANKAN SOIL</h3>
+                        <h4 data-animation="animated bounceInUp">sri lankan soil is very fruitful because of the climate variation any kind of plant life can be stored in this fabulous country..</h4>             
                      </div>
                 </div></div>
              </div> 
@@ -67,8 +67,8 @@
             <div class="item slide2">
                 <div class="row"><div class="container">
                     <div class="col-md-9 text-left">
-                        <h3 data-animation="animated bounceInDown">BOTTLENOSE DOLPHIN</h3>
-                        <h4 data-animation="animated bounceInUp">bottle nose dolphin groups can be seen in the srilakan seas. these friendly animlas are very cuteand attractie. </h4>
+                        <h3 data-animation="animated bounceInDown">TEA ESTATE</h3>
+                        <h4 data-animation="animated bounceInUp">sri lankan tea is very famous for it's genuine taste. the view of the sri lankan tea estates are evry beautiful.. </h4>
                      </div>
                     <div class="col-md-5 text-right">
           
@@ -80,8 +80,8 @@
             <div class="item slide3">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">BLUE WHALE</h3>
-                        <h4 data-animation="animated bounceInUp">swimming blue whale can  be seen in the sri lanakan seas.  </h4>
+                        <h3 data-animation="animated bounceInDown">PICTURESUE VIEWS<h3>
+                        <h4 data-animation="animated bounceInUp">the pearl of the india ocean sri lanka has got the plenty of beautiful places that you must visit. </h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png"> -->
@@ -92,8 +92,8 @@
             <div class="item slide4">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">WHALE FAMILY</h3>
-                        <h4 data-animation="animated bounceInUp">sri lankan seas provides nice sites of whale families... </h4>
+                        <h3 data-animation="animated bounceInDown">RUBBER ESTATES</h3>
+                        <h4 data-animation="animated bounceInUp">sri lankan rubber is very famous for it's genuine quality. the view of the rubber estates are beautiful..</h4>
                      </div>
                     <div class="col-md-5 text-right">
                         <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
@@ -130,51 +130,32 @@
 <br>
 <br>
 <div id="paragraph">
-<p><h2>Whale Watching</h2> Indian Ocean which surrounds Sri Lanka is becoming a crowning location for nature lovers who are interested in whale and dolphin watching. Here you can achieve a fascinating chance of capturing blue whales, Sperm whales and Spinner Dolphins .Dondra point,Mirissa can be defined as the best place to watch whales while Kalpitiya is the best place to watch dolphins. Reliable and Secure Whale and Dolphin watching trips are frequently arranged for nature lovers under the guidance of well-trained guides.
+<p><h3>PICTUREQUE ESTATES</h3> Hill country of Sri Lanka is rich with acres and acres of tea and rubber estates. This is due to the climate of the hill country region where rainfall is frequent.
 
-Sri Lanka is becoming a major spot for watching Whales and Dolphins. Dondra Point of down south in Sri Lanka is the main port of Whale Watching in Sri Lanka during December to April. This is Amazing, The ultimate Ceylon cruise where you can experience scenic highlights of Sri lanka and it's surrounding islands plus it's marine mammals including dolphins and whales in the beautiful Sri Lankan Seas
+As Sri Lanka is known as one of the world's largest tea exporters expansive Tea Estates in the valleys of Nuwara Eliya has made it the heart of the Sri Lankan tea industry. Once, Nuwara Eliya was the pleasure retreat of English Tea planters. So it has the feel of an English colony. Thus it is also called as "little England" due to the landscape design and various architecture of the area. Not only in Nuwara Eliya tea estates can be found in other wet zones in the south of Sri Lanka such as Deniyaya and Galle tea estates which produce a different flavored tea from that of hill country tea estates. A romantic stroll around the tea estates, an evening walk, taking pictures amidst lush green tea bushes, watching tea pluckers at their work and learning of the process of tea making and tasting freshly made tea are very refreshing activities.
 
-Whales, and dolphins or see small pods of dolphins playing around the boat. Wherever the most exciting whale and dolphin activity is, we aim to find it for you. Plus show you some of the most significant cultural and historical parts of this amazing maritime park.
+Rubber estates in Sri Lanka manufacture the world's best Crepe rubber. Rubber estates can mainly be found in southern part of the island. You can visit the Shady rubber estates and learn about the process of making rubber while enjoying the scenery of the plantation.
+
+Apart from hills there are estates that you can also visit other plantations such as sugar cane estates, coconut estates, small scale oil palm estates and other vegetation such as "Chena". The greenery full of magnificent sceneries and soothing climate would be an ideal relaxation for you.
+
+
 </p>
 </div>
 <div id="info">
-<h2>Places for Whale Watching</h2>
+<h4>Places for visit</h4>
 	<ul>
-		<li>Mirissa Beach</li>
+		<li>knuckles</li>
+		<li>Adam's peak</li>
+		<li>Ella</li>
 		
 	</ul>
-<h2>Facilitate Agents:</h2>
-</div>
-<div class="gallery">
-  
-    <img src="../images/whale_boat.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
-  
-  <div class="desc"><h1>Whale Watching</h1><h2>speed liner</h2><h3>mirissa</h3> contact number:0771234567</div>
-</div>
-<div id="abc">
-<!-- Popup Div Starts Here -->
-<div id="popupContact">
-<!-- Contact Us Form -->
-<form action="#" id="form" method="post" name="form">
-<img id="close" src="../images/ whale_boat.jpg" onclick ="div_hide()">
-<h2 id="contact">Contact Us</h2>
-<hr>
-<input id="name" name="name" placeholder="Name" type="text">
-<input id="email" name="email" placeholder="Email" type="text">
-<textarea id="msg" name="message" placeholder="Message"></textarea>
-<a href="javascript:%20check_empty()" id="submit">Send</a>
-</form>
-</div>
-<!-- Popup Div Ends Here -->
-</div>
-<!-- Display Popup Button -->
-
-<button id="popup" onclick="div_show()">contact us</button>
 
 </div>
-<script type="text/javascript" src="../javascript/jquery.js"></script>
+</div>
+  <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
-<script src="../javascript/whale_watching.js"></script>
+<script src="../javascript/myjs.js"></script>
 </body>
 </html>
+
 
