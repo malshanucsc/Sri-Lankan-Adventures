@@ -147,6 +147,9 @@ While around the world we see many activities that would bring an adrenaline rus
 <h4>Facilitate Agents:</h4>
 </div>
 </div>
+  <script type="text/javascript" src="../javascript/jquery.js"></script>
+  <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
+<script src="../javascript/myjs.js"></script>
 </body>
 </html>
 
