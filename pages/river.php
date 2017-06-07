@@ -155,7 +155,7 @@ Sri Lankan River side carries the highest attention among local and foreign tour
 	<div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="boat_trip.php">
+  <a  href="boat_trip.php">
     <img src="../images/g4.jpg" alt="Fjords" width="300" height="200" style="border:solid">
   </a>
   <div class="desc"><h3>Boat trips</h3>Maximum thrill in the river</div>

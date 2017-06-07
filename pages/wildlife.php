@@ -155,28 +155,28 @@ Sri Lankan wild life which containing high Bio-Diversity carries the highest att
 	<div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="safari.php">
+  <a  href="safari.php">
     <img src="../images/safari.jpg" alt="Fjords" width="300" height="200" style="border:solid">
   </a>
   <div class="desc"><h3>Wild life safari</h3>Animal kingdoms are yet to be explored..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="walking_jungle.php">
+  <a  href="walking_jungle.php">
     <img src="../images/jungle.jpg" alt="Forest" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Walking in the jungle</h3> exciting and thrilling experience...</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="bird.php">
+  <a  href="bird.php">
     <img src="../images/bird.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Bird watching</h3> watch cclosely to the flying lifestyles..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="camping.php">
+  <a  href="camping.php">
     <img src="../images/camping.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Camping</h3> are you ready to some adventure to your life..</div>

@@ -181,28 +181,28 @@
 	<div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="surfing.php">
+  <a  href="surfing.php">
     <img src="../images/3.jpg" alt="Fjords" width="300" height="200" style="border:solid">
   </a>
   <div class="desc"><h3>Surfing</h3>dangerous... but maxximum thrill..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="whale_watching.php">
+  <a  href="whale_watching.php">
     <img src="../images/whale.jpg" alt="Forest" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Whale Watchiing</h3> awesome.. heart stopping view...</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="diving.php">
+  <a  href="diving.php">
     <img src="../images/snorkeling.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Diving and Snorkeling...</h3> awesome experience..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="sunbathe.php">
+  <a  href="sunbathe.php">
     <img src="../images/sun_bathe.jpg" alt="Mountains" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Sun Bathe </h3>feel the sun rise... make your skin color looking wow..</div>

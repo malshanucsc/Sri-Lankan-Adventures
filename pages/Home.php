@@ -211,42 +211,42 @@ and the calm and quite nature of her afford a great relaxation.</p>
 <div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="sea_side.php">
+  <a  href="sea_side.php">
     <img src="../images/sri_lanka_turtle-700x394.jpg" alt="Fjords" width="300" height="200">
   </a>
   <div class="desc">Sea Side</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="studying_culture.php">
+  <a  href="studying_culture.php">
     <img src="../images/traditional-dances-of-sri-lanka-august-2011-2.jpg" alt="Forest" width="300" height="200">
   </a>
   <div class="desc">Culture</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="historical.php">
+  <a  href="historical.php">
     <img src="../images/5.jpg" alt="Northern Lights" width="300" height="200">
   </a>
   <div class="desc">Historical</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="hill_country.php">
+  <a  href="hill_country.php">
     <img src="../images/tea.jpg" alt="Mountains" width="300" height="200">
   </a>
   <div class="desc">Hill Country</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="wildlife.php">
+  <a  href="wildlife.php">
     <img src="../images/deer.jpg" alt="Mountains" width="300" height="200">
   </a>
   <div class="desc">Wild Life</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="river.php">
+  <a  href="river.php">
     <img src="../images/Mahaweli_Ganga_by_Gampola.jpg" alt="Mountains" width="300" height="200">
   </a>
   <div class="desc">River Side</div>

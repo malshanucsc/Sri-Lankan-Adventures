@@ -171,21 +171,21 @@ Sri Lankan Historical places also get the highest attention among history Explor
 	<div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="watching_frescoes.php">
+  <a  href="watching_frescoes.php">
     <img src="../images/frescoes.jpg" alt="Fjords" width="300" height="200" style="border:solid">
   </a>
   <div class="desc"><h3>Watching Frescoes</h3>artistics skills of ancient minds..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="ancient_statue.php">
+  <a  href="ancient_statue.php">
     <img src="../images/statue.jpg" alt="Forest" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Ancient Statue</h3> exquisite craftsmanship of ancient sri lanka..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="worship_temple.php">
+  <a  href="worship_temple.php">
     <img src="../images/temple.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Worship ancient temples</h3> calm and quite relaxation to the mind..</div>

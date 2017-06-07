@@ -170,28 +170,28 @@ Hill side of the pearl of the Indian ocean get the highest attention among touri
 	<div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="hiking.php">
+  <a  href="hiking.php">
     <img src="../images/hiking.jpg" alt="Fjords" width="300" height="200" style="border:solid">
   </a>
   <div class="desc"><h3>Hiking</h3>every new steep gives new experience</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="clement.php">
+  <a  href="clement.php">
     <img src="../images/weather.jpg" alt="Forest" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Clement weather</h3> let cold air refresh your body and mind</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="waterfal.php">
+  <a  href="waterfal.php">
     <img src="../images/water.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Watching Waterfalls</h3> be ready for getting wet exploring waterfalls..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="picturesque.php">
+  <a  href="picturesque.php">
     <img src="../images/pic.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>Picturesque Estates</h3> witness how luxuriant sri lanka soil is </div>
