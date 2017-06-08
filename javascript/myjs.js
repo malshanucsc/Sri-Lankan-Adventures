@@ -40,3 +40,14 @@
     });
 	
 })(jQuery);	
+$(function()
+{
+	$('#upmenu').droppy();
+})
+
+
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});

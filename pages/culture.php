@@ -124,11 +124,24 @@
 <div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a href="#">Home</a></li>
-				<li role="presentation"><a href="#">Activities</a></li>
-				<li role="presentation"><a href="#">Places</a></li>
-				<li role="presentation"><a href="#">Gallery</a></li>
-				<li role="presentation"><a href="#">Contact Us</a></li>
+				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
+						<div class="dropdown-content">
+							<a href="sea_side.php"> sea side</a>
+							<a href="river.php"> river side</a>
+							<a href="wildlife.php"> wild life</a>
+							
+						</div>
+				</li>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
+						<div class="dropdown-content">							
+							<a href="culture.php"> culture</a>
+							<a href="hill_country.php"> hill country</a>
+							<a href="historical.php"> historical</a>
+						</div>
+				</li>
+				<li role="presentation"><a href="review.php">Reviews</a></li>
+				<li role="presentation"><a href="contact.php">Contact Us</a></li>
 			</ul>
 </div>
 <br> 

@@ -1,6 +1,4 @@
-body{
-	background-color:#9999ff !important;
-}
+
 #full_page{
 	margin-left:5%;
 	/*margin-top:5%;*/
@@ -11,6 +9,11 @@ body{
 #logo{
 	width:100%;
 }
+
+body{
+	background-color: #9999ff !important;
+}
+	
 #topic{ 
 		font-family:Comic Sans MS;
 		color:black;
@@ -30,6 +33,7 @@ body{
 	color:black;
 
 }
+
 .nav-pills a{
 	color:black;
 	font-weight:bold;
@@ -38,19 +42,59 @@ body{
 	
 }
 #paragraph{
-	margin-left:20%;
-	width:60%;
+	margin-left:15%;
+	width:70%;
+	font-size:20px;
 	color:black;
-	text-align:justify;
+	
 }
-#info{
-	margin-left:20%;
-	width:80%;;
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	margin-left:10%;
+	
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: 150px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+	font-weight:bold;
 	color:black;
 }
-#info h4{
-	color:#336600;
+#photoGallery{
+	margin-left:10%;
+	width:80%;
 }
+#downbanner{
+	margin-top:0%;
+	margin-left:10%;
+	
+}
+#service{
+	margin-left:15%;
+	width:70%;
+margin-top: 30%;
+	font-weight:bold;
+	color:black;
+
+}
+
+
+
+
+
+
 #first-slider{
 	/*margin-top: 13%;*/
 margin-left: 10%;
@@ -68,20 +112,24 @@ margin-right:10%;
 }
 
 
-#first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3 {
-    color: #fff;
+#first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3, #first-slider .slide5 h3, #first-slider .slide6 h3, #first-slider .slide7 h3, #first-slider .slide8 h3{
+    color: black;
     font-size: 30px;
       text-transform: uppercase;
       font-weight:700;
+	  margin-left:20%;
+	  margin-top:30%;
+	  
 }
-
-#first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
-    color: #fff;
+#first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4,#first-slider .slide5 h4,#first-slider .slide6 h4,#first-slider .slide7 h4,#first-slider .slide8 h4{
+    color: black;
     font-size: 30px;
       text-transform: uppercase;
       font-weight:700;
+	  margin-left:20%;
+	  margin-top:5%;
 }
-#first-slider .slide1 .text-left ,#first-slider .slide3 .text-left{
+#first-slider .slide1 .text-left ,#first-slider .slide3 .text-left,#first-slider .slide5 .text-left,#first-slider .slide7 .text-left{
     padding-left: 40px;
 }
 
@@ -223,26 +271,43 @@ margin-right:10%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/walk.jpg);
+    background-image: url(../images/first.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/cool.jpg);
+  background-image: url(../images/tangalla.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/picview.jpg);
+  background-image: url(../images/image4.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/fun.jpg);
+  background-image: url(../images/images.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
+#first-slider .slide5 {
+    background-image: url(../images/hillcountry.jpg);
+      background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#first-slider .slide6 {
+    background-image: url(../images/dambullacavetemple_3465946a-xlarge.jpg);
+      background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#first-slider .slide7 {
+    background-image: url(../images/rivers.jpg);
+      background-size:100% 100%;
+    background-repeat: no-repeat;
+}
 
 
 }
@@ -293,3 +358,35 @@ li.dropdown{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.animated{
+	-webkit-transition:height 0.2s;
+	-moz-transition:height 0.2s;
+	transition:height 0.2s;
+	
+}
+.stars{
+	margin:20px 0;
+	font-size:24px;
+	color:#d17581;
+	
+}
+.review{
+	margin-left:20%;
+	width:60%;
+	
+}
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+      
+}
+@media screen and (max-width: 640px){
+      
+}
+
+
+
+
+

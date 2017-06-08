@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/mycss.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
 	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -32,49 +32,7 @@
 	</div>
 	<br>
 	
-	
-	
-	<div class="container">
-  
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="padding:35px 50px;">
-          <button type="button" class="close" data-dismiss="modal" &times;</button>
-          <h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
-        </div>
-        <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Enter password">
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
-            </div>
-              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-          <p>Not a member? <a href="#">Sign Up</a></p>
-          <p>Forgot <a href="#">Password?</a></p>
-        </div>
-      </div>
-      
-    </div>
-  </div> 
-</div>
 
 
 
@@ -235,7 +193,7 @@
 <div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>
@@ -257,94 +215,38 @@
 </div>
 <br>
 <br>
-<br>
-	<div id="paragraph">
-		<p> Sri Lanka is an amazing tiny island surrounded by the bluish Indian Oean.Because of the enchanting beauty of this island it is named as the pearl of the Indian Ocean.It is the beauty queen all over the world
-and the calm and quite nature of her afford a great relaxation.</p>
+<div id="paragraph">
+		<p> If you have a question about facilities or services we provide,you can contact us by email using the contact details below. Fill in our simple enquiry form below and one of our friendly staff will get in touch with you to discuss your every need!
+
+And if you want to arrange a tour to visit any place, safe and securely in Sri Lanka, our tour team is ready to guide you throughout your journey not as a regular tourist guide but as a good friend. So Contact us by email when you are about to vist Sri Lanka and plan your tour with us that meet your budget .
+
+Your feedback is more than welcome. Please send us your comments and suggestions. We look forward to hearing from you. </p>
 	</div>
-
-<div id="photoGallery">
-
-<div class="gallery">
-  <a  href="sea_side.php">
-    <img src="../images/sri_lanka_turtle-700x394.jpg" alt="Fjords" width="300" height="200">
-  </a>
-  <div class="desc">Sea Side</div>
+	
+	<div class="contact_form">
+		<form action="#">
+			<label for="fname"> First Name</label><br>
+			<input type="text" id="fname" name="first_name" placeholder="Enter your First Name"/><br><br>
+			<label for="lname"> Last Name</label><br>
+			<input type="text" id="lname" name="last_name" placeholder="Enter your Last Name"/><br><br>
+			<label for="country">Country</label><br>
+			<select id="country" name="country_name">
+				<option value="ind">INDIA</option>
+				<option value="aus">Australia</option>
+				<option value="can">Canada</option>
+				<option value="chi">China</option>
+				<option value="usa">USA</option>
+				<option value="indo">Indonesia</option>
+				<option value="eng">England</option>
+			</select><br><br>
+			<label for="message">Message</label><br>
+			<textarea id="msg" name="message" placeholder="Enter your message here.." style="height:200px"></textarea><br><br>
+			<input type="submit" value="submit"/>
+		</form>
+	</div>
+			<br>
 </div>
-
-<div class="gallery">
-  <a  href="studying_culture.php">
-    <img src="../images/traditional-dances-of-sri-lanka-august-2011-2.jpg" alt="Forest" width="300" height="200">
-  </a>
-  <div class="desc">Culture</div>
-</div>
-
-<div class="gallery">
-  <a  href="historical.php">
-    <img src="../images/5.jpg" alt="Northern Lights" width="300" height="200">
-  </a>
-  <div class="desc">Historical</div>
-</div>
-
-<div class="gallery">
-  <a  href="hill_country.php">
-    <img src="../images/tea.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Hill Country</div>
-</div>
-
-<div class="gallery">
-  <a  href="wildlife.php">
-    <img src="../images/deer.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">Wild Life</div>
-</div>
-
-<div class="gallery">
-  <a  href="river.php">
-    <img src="../images/Mahaweli_Ganga_by_Gampola.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div class="desc">River Side</div>
-</div>
-
-</div>
-<br><br><br><br>
-<div id="service">
-<p><h1>OUR SERVICE</h1>
-
-You will never feel strange when we are in your service.We accept the responsibility of providing a friendly and secure tour for you with full of trust.
-We are eager to direct you to the places you love to visit, without any hesitation.
-By contacting us you will be able to find out the best suited places for your journey according to your taste and also you can seek for most comfortable and safe places for accommodation.
-From the arrival to Sri Lanka till the departure we will serve you heartfully creating remarkable memories of a wonderful journey in your heart. 
-</p>
-</div>
-<br>
-<br>
-<br>
-<div id="downbanner" class="col-md-12" >
-
-                  &copy; sawanisasanka@gmail.com
-                    
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script type="text/javascript" src="../javascript/jquery.js"></script>
+ <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
 <script src="../javascript/myjs.js"></script>
 </body>
