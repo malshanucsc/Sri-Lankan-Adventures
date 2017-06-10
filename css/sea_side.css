@@ -19,11 +19,29 @@ body{
 		}
 #upbanner{
 	font-weight:bold;
-	margin-left:58%;
+	margin-left:56%;
 	color:black;
 	
 	
 }
+.btn {
+	
+	margin-left:83%;
+	color:black;
+	
+}
+.modal-header, h5, .close {
+		
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+	 
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
 #upmenu{
 	padding-top: 10px;
 	margin-left:27%;
@@ -38,7 +56,7 @@ body{
 }
 .gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     float: left;
     width:80%;
 	margin-left:10%;
@@ -46,12 +64,14 @@ body{
 }
 
 .gallery:hover {
-    border: 1px solid #777;
+   /* border: 1px solid #777;*/
+	border-radius:20px;
 }
 
 .gallery img {
     width: 100%;
-    height: 200px;
+    height: 350px;
+	border-radius:30px;
 }
 
 .desc {
@@ -82,20 +102,28 @@ margin-right:10%;
 
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3, #first-slider .slide5 h3, #first-slider .slide6 h3{
-    color: #fff;
-    font-size: 30px;
+     color:black;
+    font-size: 35px;
       text-transform: uppercase;
       font-weight:700;
+	  margin-left:10%;
+	  margin-top:30%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  letter-spacing:8px;
 }
 
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4,#first-slider .slide5 h4,#first-slider .slide6 h4{
-    color: #fff;
-    font-size: 30px;
+    color: black;
+    font-size:35px;
       text-transform: uppercase;
       font-weight:700;
+	  margin-left:10%;
+	  margin-top:5%;
+	  font-family:Impact, Charcoal, sans-serif;
+	  letter-spacing:8px;
 }
 #first-slider .slide1 .text-left ,#first-slider .slide3 .text-left,#first-slider .slide5 .text-left{
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 
@@ -150,7 +178,8 @@ margin-right:10%;
 
 #first-slider .p {
   padding-top: 125px;
-  text-align: center;
+  text-align: left;
+  
 }
 
 #first-slider .p a {
@@ -283,8 +312,10 @@ margin-right:10%;
 }
 #paragraph{
 	width:80%;
-	margin-left:10%;
-	
+	margin-left:15%;
+	font-size:20px;
+	font-weight:700px;
+	text-align:justify;
 	
 }
 #activities{

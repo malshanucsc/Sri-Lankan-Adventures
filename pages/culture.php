@@ -33,7 +33,46 @@
 	<br>
 	
 
+<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
 
+	<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+    
+		<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header" style="padding:35px 50px;">
+						<button type="button" class="close" data-dismiss="modal" &times;</button>
+							<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
+					</div>
+				<div class="modal-body" style="padding:40px 50px;">
+					<form role="form">
+						<div class="form-group">
+							<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+							<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+							<input type="text" class="form-control" id="psw" placeholder="Enter password">
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" value="" checked>Remember me</label>
+						</div>
+						<button type="submit" class="btn1 btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+					<p>Not a member? <a href="#">Sign Up</a></p>
+					<p>Forgot <a href="#">Password?</a></p>
+				</div>
+				</div>
+      
+			</div>
+		</div> 
+	</div>
+	<br>
 
 
 
@@ -166,21 +205,21 @@ Sri Lankan culture carries the highest attention among foreign tourists because 
 	<div id="photoGallery">
 
 <div class="gallery">
-  <a target="_blank" href="ayurveda.php">
+  <a target="" href="ayurveda.php">
     <img src="../images/ay.jpg" alt="Fjords" width="300" height="200" style="border:solid">
   </a>
   <div class="desc"><h3>AYURVEDA</h3>way of healing with te power of natural herbs..</div> 
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="meditation.php">
+  <a target="" href="meditation.php">
     <img src="../images/m.jpg" alt="Forest" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>MEDITATION AND YOGA</h3> strngthen up you spiritual of mind..</div>
 </div>
 <br><br>
 <div class="gallery">
-  <a target="_blank" href="diving.php">
+  <a target="" href="studying_culture.php">
     <img src="../images/a.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
   </a>
   <div class="desc"><h3>STUDYING CULTURE</h3> amazing talents passed frm ancesstors..</div>
@@ -191,7 +230,9 @@ Sri Lankan culture carries the highest attention among foreign tourists because 
 </div>
 </div>
 </div>
-
+<script type="text/javascript" src="../javascript/jquery.js"></script>
+  <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
+<script src="../javascript/myjs.js"></script>
 </body>
 </html>
 
