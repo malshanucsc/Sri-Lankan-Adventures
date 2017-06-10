@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/mycss.css">
@@ -7,16 +8,44 @@
 </head>
 <body >
 <div id="full_page" >
-	<div id="header" class="col-md-12" >
+	<div id="header" class="col-md-8" >
 		<div class= "col-md-2 " >
-			<img  id="logo" src="../images/logo.png" >
+			<img width="100" id="logo" src="../images/logo.png" >
 		</div>
-		<div class="col-md-6" id="topic">
+		<div class="col-md-8 col-md-offset-1" id="topic">
+		<h1>
 			Sri Lankan Adventures 
+			</h1>
 		</div>
 	</div>	
+<br>
+<div class="col-md-12" id="upmenu">
 
-	<div id="upbanner"><h4>Looking for a <select>
+			<ul class="nav nav-pills ">
+				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
+						<div class="dropdown-content">
+							<a href="sea_side.php"> sea side</a>
+							<a href="river.php"> river side</a>
+							<a href="wildlife.php"> wild life</a>
+							
+						</div>
+				</li>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
+						<div class="dropdown-content">							
+							<a href="culture.php"> culture</a>
+							<a href="hill_country.php"> hill country</a>
+							<a href="historical.php"> historical</a>
+						</div>
+				</li>
+				<li role="presentation"><a href="reviews.php">Reviews</a></li>
+				<li role="presentation"><a href="contact.php">Contact Us</a></li>
+			</ul>
+</div>
+<br>
+
+	<div id="upbanner" class="pull-right " >
+	 <select>
 				  <option value="1">Whale Watching</option>
 				  <option value="2">Wild safari</option>
 				  <option value="3">Surfing</option>
@@ -27,16 +56,17 @@
 				  <option value="8">Ayurvedic spa</option> 
 				  <option value="9">Meditation and Yoga</option>
 				  </select>
-		<input type="submit" id="search_button" value="search"/></h4>
+		<input type="submit" id="search_button" value="search"/>
+&nbsp&nbsp&nbsp		<button type="button" class="pull-right" id="myBtn">Login</button>
 	</div>
 	<br>
 	
-	
+	<div id="pagebody">
 	
 	<div class="container">
   
 	<!-- Trigger the modal with a button -->
-	<button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
+	<!-- <button type="button" class="btn btn-default btn-lg pull-right" id="myBtn">Login</button> -->
 
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" role="dialog">
@@ -207,63 +237,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-md-12" id="upmenu">
-
-			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a href="#">Home</a></li>
-				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
-						<div class="dropdown-content">
-							<a href="sea_side.php"> sea side</a>
-							<a href="river.php"> river side</a>
-							<a href="wildlife.php"> wild life</a>
-							
-						</div>
-				</li>
-				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
-						<div class="dropdown-content">							
-							<a href="culture.php"> culture</a>
-							<a href="hill_country.php"> hill country</a>
-							<a href="historical.php"> historical</a>
-						</div>
-				</li>
-				<li role="presentation"><a href="reviews.php">Reviews</a></li>
-				<li role="presentation"><a href="contact.php">Contact Us</a></li>
-			</ul>
-</div>
-<br>
-<br>
-<br>
-<br>
 	<div id="paragraph">
 	
 		<p> Sri Lanka is an amazing tiny island surrounded by the bluish Indian Oean.Because of the enchanting beauty of this island it is named as the pearl of the Indian Ocean.It is the beauty queen all over the world
 		and the calm and quite nature of her afford a great relaxation.</p>
 	</div>
-
+<br>
 <div id="photoGallery">
 
 <div class="gallery">
@@ -311,9 +290,10 @@
 </div>
 <br><br><br><br><br><br>
 <div id="service">
-<p><h1>OUR SERVICE</h1>
 <br>
-You will never feel strange when we are in your service.We accept the responsibility of providing a friendly and secure tour for you with full of trust.
+<h3>OUR SERVICE</h3>
+
+<p>You will never feel strange when we are in your service.We accept the responsibility of providing a friendly and secure tour for you with full of trust.
 We are eager to direct you to the places you love to visit, without any hesitation.
 By contacting us you will be able to find out the best suited places for your journey according to your taste and also you can seek for most comfortable and safe places for accommodation.
 From the arrival to Sri Lanka till the departure we will serve you heartfully creating remarkable memories of a wonderful journey in your heart. 
@@ -339,7 +319,7 @@ From the arrival to Sri Lanka till the departure we will serve you heartfully cr
 
 
 
-
+</div>
 
 
 
