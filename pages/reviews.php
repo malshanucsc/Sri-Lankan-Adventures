@@ -1,23 +1,51 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/reviews.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
-	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
 <body >
 <div id="full_page" >
-	<div id="header" class="col-md-12" >
+	<div id="header" class="col-md-8" >
 		<div class= "col-md-2 " >
-			<img  id="logo" src="../images/logo.png" >
+			<img width="100" id="logo" src="../images/logo.png" >
 		</div>
-		<div class="col-md-6" id="topic">
+		<div class="col-md-8 col-md-offset-1" id="topic">
+		<h1>
 			Sri Lankan Adventures 
+			</h1>
 		</div>
 	</div>	
+	<br>
+	<div class="col-md-12" id="upmenu">
 
-	<div id="upbanner"><h4>Looking for a <select>
+			<ul class="nav nav-pills ">
+				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
+						<div class="dropdown-content">
+							<a href="sea_side.php"> sea side</a>
+							<a href="river.php"> river side</a>
+							<a href="wildlife.php"> wild life</a>
+							
+						</div>
+				</li>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
+						<div class="dropdown-content">							
+							<a href="culture.php"> culture</a>
+							<a href="hill_country.php"> hill country</a>
+							<a href="historical.php"> historical</a>
+						</div>
+				</li>
+				<li role="presentation"><a href="reviews.php">Reviews</a></li>
+				<li role="presentation"><a href="contact.php">Contact Us</a></li>
+			</ul>
+	</div>
+	<br>
+
+	<div id="upbanner" class="pull-right " >
+				<select>
 				  <option value="1">Whale Watching</option>
 				  <option value="2">Wild safari</option>
 				  <option value="3">Surfing</option>
@@ -27,14 +55,52 @@
 				  <option value="7">Hill country visit</option>
 				  <option value="8">Ayurvedic spa</option> 
 				  <option value="9">Meditation and Yoga</option>
-				  </select>
-		<input type="submit" id="search_button" value="search"/></h4>
+				</select>
+		<input type="submit" id="search_button" value="search"/>
+&nbsp&nbsp&nbsp		<button type="button" class="pull-right" id="myBtn">Login</button>
 	</div>
 	<br>
 	
-
-
-
+	<div id="pagebody">
+	
+		<div class="container">
+  
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+    
+		<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header" style="padding:35px 50px;">
+							<button type="button" class="close" data-dismiss="modal" &times;</button>
+							<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
+						</div>
+						<div class="modal-body" style="padding:40px 50px;">
+						<form role="form">
+							<div class="form-group">
+								<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+								<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+								<input type="text" class="form-control" id="psw" placeholder="Enter password">
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" value="" checked>Remember me</label>
+							</div>
+							<button type="submit" class="btn1 btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+						</form>
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+							<p>Not a member? <a href="#">Sign Up</a></p>
+							<p>Forgot <a href="#">Password?</a></p>
+						</div>
+					</div>
+      
+				</div>
+			</div> 
+		</div>
+		<br>
 
 
 
@@ -163,32 +229,6 @@
 </div>
 </div>
 
-<div class="col-md-12" id="upmenu">
-
-			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
-				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
-						<div class="dropdown-content">
-							<a href="sea_side.php"> sea side</a>
-							<a href="river.php"> river side</a>
-							<a href="wildlife.php"> wild life</a>
-							
-						</div>
-				</li>
-				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
-						<div class="dropdown-content">							
-							<a href="culture.php"> culture</a>
-							<a href="hill_country.php"> hill country</a>
-							<a href="historical.php"> historical</a>
-						</div>
-				</li>
-				<li role="presentation"><a href="reviews.php">Reviews</a></li>
-				<li role="presentation"><a href="contact.php">Contact Us</a></li>
-			</ul>
-</div>
-<br>
-<br>
-<br><br><br>
 	<div class="review">
 		<div class="row" style="margin-top:40px;">
 			<div class="col-md-6">

@@ -1,126 +1,29 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/bird.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.min.css">
-	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
 <body >
 <div id="full_page" >
-	<div id="header" class="col-md-12" >
+	<div id="header" class="col-md-8" >
 		<div class= "col-md-2 " >
-			<img  id="logo" src="../images/logo.png" >
+			<img width="100" id="logo" src="../images/logo.png" >
 		</div>
-		<div class="col-md-6" id="topic">
+		<div class="col-md-8 col-md-offset-1" id="topic">
+		<h1>
 			Sri Lankan Adventures 
+			</h1>
 		</div>
 	</div>	
-
-	<div id="upbanner"><h4>Looking for a <select>
-				  <option value="1">Whale Watching</option>
-				  <option value="2">Wild safari</option>
-				  <option value="3">Surfing</option>
-				  <option value="4">Diving</option>
-				  <option value="5">Sun bathing</option>
-				  <option value="6">Historical place visit</option>
-				  <option value="7">Hill country visit</option>
-				  <option value="8">Ayurvedic spa</option> 
-				  <option value="9">Meditation and Yoga</option>
-				  </select>
-				 
-		<input type="submit" id="search_button" value="search"/></h4>
-	</div>
 	<br>
-	
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+	<div class="col-md-12" id="upmenu">
 
-<div class="col-md-12">
-<div id="first-slider" class="col-md-10" >
-    <div id="carousel-example-generic" class="carousel slide carousel-fade">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-            
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <!-- Item 1 -->
-            <div class="item active slide1">
-                <div class="row"><div class="container">
-                    <div class="col-md-3 text-right">
-                      <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
-                    </div>
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">BIRD WATCHING IN SRI LANKA</h3>
-                        <h4 data-animation="animated bounceInUp">bird watching is a hobby of many tourists who visits sri lanka.. as sri lanka the island of paradise is filled with bird lif. bird watchong lovers are thrilled during their time in sri lanka..  </h4>             
-                     </div>
-                </div></div>
-             </div> 
-            <!-- Item 2 -->
-            <div class="item slide2">
-                <div class="row"><div class="container">
-                    <div class="col-md-9 text-left">
-                        <h3 data-animation="animated bounceInDown">SRI LANKAN SPECIAL</h3>
-                        <h4 data-animation="animated bounceInUp">some of the birds you see in sri lanka ycan't be seen any where else in the world in there natural life. </h4>
-                     </div>
-                    <div class="col-md-5 text-right">
-          
-                        <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/sp11uneml/rack_server_unlock.png"> -->
-                    </div>
-                </div></div>
-            </div>
-            <!-- Item 3 -->
-            <div class="item slide3">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">PLEASURE TO THE HEART<h3>
-                        <h4 data-animation="animated bounceInUp">looking at how these animals fly form here to there make you forget your problems for a moment..</h4>
-                     </div>
-                    <div class="col-md-5 text-right">
-                        <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png"> -->
-                    </div>     
-                </div></div>
-            </div>
-            <!-- Item 4 -->
-            <div class="item slide4">
-                <div class="row"><div class="container">
-                    <div class="col-md-7 text-left">
-                        <h3 data-animation="animated bounceInDown">BIRDS IN RAIN FORESTS</h3>
-                        <h4 data-animation="animated bounceInUp">sri lankan rain forets give shelter to number of birds.Forests like "sinharaja" is one of the best place to bird watchong..</h4>
-                     </div>
-                    <div class="col-md-5 text-right">
-                        <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
-                    </div>  
-                </div></div>
-            </div>
-            <!-- End Item 4 -->
-
-                        
-                        
-        </div>
-        <!-- End Wrapper for slides-->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
-</div>
-<br>
-<div class="col-md-12" id="upmenu">
-
-			<ul class="nav nav-pills">
+			<ul class="nav nav-pills ">
 				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
-								<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>
 							<a href="river.php"> river side</a>
@@ -138,33 +41,175 @@
 				<li role="presentation"><a href="reviews.php">Reviews</a></li>
 				<li role="presentation"><a href="contact.php">Contact Us</a></li>
 			</ul>
-</div>
-<br> 
-<br>
-<br>
-<div id="paragraph">
-<p><h3>BIRD WATCHING</h3> Sri Lanka is a paradise in the Indian Ocean for bird watching. Bird enthusiasts are always left enticed by the vast variety of birds they get to see in Sri Lanka. There are over 56 species of birds indigenous to Sri Lanka which can be found in the bird sanctuaries, around rivers, hill country and even in rain forests.
+	</div>
+	<br>
 
-The large lakes in the dry zone mostly attract a large number of ducks while the wetlands such as weerawila, kalamatiya and bundala national park are where larger aquatic birds such as stork, heron, egret, spoonbill, pelican, and ibis can be seen. Around mid august a large number of migrant birds arrive in the Island. They are of the species sandpipers, stints, plovers, terns and harriers flying over from North India Siberia, Scandinavia and Western Europe which settle along the lagoons and salterns of the coast areas.
+	<div id="upbanner" class="pull-right " >
+				<select>
+				  <option value="1">Whale Watching</option>
+				  <option value="2">Wild safari</option>
+				  <option value="3">Surfing</option>
+				  <option value="4">Diving</option>
+				  <option value="5">Sun bathing</option>
+				  <option value="6">Historical place visit</option>
+				  <option value="7">Hill country visit</option>
+				  <option value="8">Ayurvedic spa</option> 
+				  <option value="9">Meditation and Yoga</option>
+				</select>
+		<input type="submit" id="search_button" value="search"/>
+		<button type="button" class="pull-right" id="myBtn">Login</button>
+	</div>
+	<br>
+	
+	<div id="pagebody">
+	
+		<div class="container">
+  
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+    
+		<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header" style="padding:35px 50px;">
+							<button type="button" class="close" data-dismiss="modal" &times;</button>
+							<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
+						</div>
+						<div class="modal-body" style="padding:40px 50px;">
+						<form role="form">
+							<div class="form-group">
+								<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+								<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+								<input type="text" class="form-control" id="psw" placeholder="Enter password">
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" value="" checked>Remember me</label>
+							</div>
+							<button type="submit" class="btn1 btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+						</form>
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+							<p>Not a member? <a href="#">Sign Up</a></p>
+							<p>Forgot <a href="#">Password?</a></p>
+						</div>
+					</div>
+      
+				</div>
+			</div> 
+		</div>
+		<br>
 
-Combining migrant birds there are more than 400 different species of birds to be found in the Island. Bird watching can be done as a group activity as well as an individual activity. Usually you might find it more appropriate to dress in khaki, green or brown colors so that you blend with the environment the birds dwell in. And most importantly you have to be silent and be patient when waiting to catch a glimpse of a exquisite bird species.
 
-</p>
-</div>
-<div id="info">
-<h4>Places for visit</h4>
-	<ul>
-		<li>yala national park</li>
-		<li>wasgamuwa park</li>
-		<li>wilpaththu national park</li>
-		<li>sinharaja rain forest</li>
-	</ul>
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
 
-</div>
+		<div class="col-md-12">
+			<div id="first-slider" class="col-md-10" >
+				<div id="carousel-example-generic" class="carousel slide carousel-fade">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+						
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<!-- Item 1 -->
+						<div class="item active slide1">
+							<div class="row"><div class="container">
+								<div class="col-md-3 text-right">
+								  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
+								</div>
+								<div class="col-md-7 text-left">
+									<h3 data-animation="animated bounceInDown">BIRD WATCHING IN SRI LANKA</h3>
+									<h4 data-animation="animated bounceInUp">bird watching is a hobby of many tourists who visits sri lanka.. as sri lanka the island of paradise is filled with bird lif. bird watchong lovers are thrilled during their time in sri lanka..  </h4>             
+								 </div>
+							</div></div>
+						 </div> 
+							<!-- Item 2 -->
+							<div class="item slide2">
+								<div class="row"><div class="container">
+									<div class="col-md-9 text-left">
+										<h3 data-animation="animated bounceInDown">SRI LANKAN SPECIAL</h3>
+										<h4 data-animation="animated bounceInUp">some of the birds you see in sri lanka ycan't be seen any where else in the world in there natural life. </h4>
+									 </div>
+									<div class="col-md-5 text-right">
+						  
+										<!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/sp11uneml/rack_server_unlock.png"> -->
+									</div>
+								</div></div>
+											</div>
+							<!-- Item 3 -->
+							<div class="item slide3">
+								<div class="row"><div class="container">
+									<div class="col-md-7 text-left">
+										<h3 data-animation="animated bounceInDown">PLEASURE TO THE HEART<h3>
+										<h4 data-animation="animated bounceInUp">looking at how these animals fly form here to there make you forget your problems for a moment..</h4>
+									 </div>
+									<div class="col-md-5 text-right">
+										<!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png"> -->
+									</div>     
+								</div></div>
+							</div>
+							<!-- Item 4 -->
+							<div class="item slide4">
+								<div class="row"><div class="container">
+									<div class="col-md-7 text-left">
+										<h3 data-animation="animated bounceInDown">BIRDS IN RAIN FORESTS</h3>
+										<h4 data-animation="animated bounceInUp">sri lankan rain forets give shelter to number of birds.Forests like "sinharaja" is one of the best place to bird watchong..</h4>
+									 </div>
+									<div class="col-md-5 text-right">
+										<!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/9vf8xngel/internet_speed.png"> -->
+									</div>  
+								</div></div>
+							</div>
+							<!-- End Item 4 -->
+
+                        
+                        
+						</div>
+							<!-- End Wrapper for slides-->
+							<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+								<i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+								<i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
+							</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="paragraph">
+				<p><h3>BIRD WATCHING</h3> Sri Lanka is a paradise in the Indian Ocean for bird watching. Bird enthusiasts are always left enticed by the vast variety of birds they get to see in Sri Lanka. There are over 56 species of birds indigenous to Sri Lanka which can be found in the bird sanctuaries, around rivers, hill country and even in rain forests.
+
+				The large lakes in the dry zone mostly attract a large number of ducks while the wetlands such as weerawila, kalamatiya and bundala national park are where larger aquatic birds such as stork, heron, egret, spoonbill, pelican, and ibis can be seen. Around mid august a large number of migrant birds arrive in the Island. They are of the species sandpipers, stints, plovers, terns and harriers flying over from North India Siberia, Scandinavia and Western Europe which settle along the lagoons and salterns of the coast areas.
+
+				Combining migrant birds there are more than 400 different species of birds to be found in the Island. Bird watching can be done as a group activity as well as an individual activity. Usually you might find it more appropriate to dress in khaki, green or brown colors so that you blend with the environment the birds dwell in. And most importantly you have to be silent and be patient when waiting to catch a glimpse of a exquisite bird species.
+
+				</p>
+			</div>
+			<div id="info">
+			<h4>Places for visit</h4>
+				<ul>
+					<li>yala national park</li>
+					<li>wasgamuwa park</li>
+					<li>wilpaththu national park</li>
+					<li>sinharaja rain forest</li>
+				</ul>
+
+			</div>
+	</div>
 </div>
   <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
-<script src="../javascript/myjs.js"></script>
+  <script src="../javascript/myjs.js"></script>
 </body>
 </html>
 
