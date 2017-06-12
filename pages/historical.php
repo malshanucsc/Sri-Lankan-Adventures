@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 </head>
-<body >
+<body>
 <div id="full_page" >
 	<div id="header" class="col-md-8" >
 		<div class= "col-md-2 " >

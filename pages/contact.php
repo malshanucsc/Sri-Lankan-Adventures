@@ -22,7 +22,7 @@
 	<div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills ">
-				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown" ><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>
@@ -39,7 +39,7 @@
 						</div>
 				</li>
 				<li role="presentation"><a href="reviews.php">Reviews</a></li>
-				<li role="presentation"><a href="contact.php">Contact Us</a></li>
+				<li role="presentation" class="active"><a href="contact.php">Contact Us</a></li>
 			</ul>
 	</div>
 	<br>
@@ -244,24 +244,28 @@
 			</div>
 	
 		<div class="contact_form">
-			<form action="#">
+			<form action="../actions/sendmessage.php" method="post">
 				<label for="fname"> First Name</label><br>
-				<input type="text" id="fname" name="first_name" placeholder="Enter your First Name"/><br><br>
+				<input type="text" required="required" id="fname" name="first_name" placeholder="Enter your First Name"/><br><br>
 				<label for="lname"> Last Name</label><br>
-				<input type="text" id="lname" name="last_name" placeholder="Enter your Last Name"/><br><br>
+				<input type="text" required="required" id="lname" name="last_name" placeholder="Enter your Last Name"/><br><br>
+				<label for="lname"> Email</label><br>
+				<input type="email" required="required"  name="email" placeholder="Enter your Last Name"/><br><br>
+				<label for="lname"> Contact No.</label><br>
+				<input type="text" name="contact_number" placeholder="Enter your Last Name"/><br><br>
 				<label for="country">Country</label><br>
 				<select id="country" name="country_name">
-					<option value="ind">INDIA</option>
-					<option value="aus">Australia</option>
-					<option value="can">Canada</option>
-					<option value="chi">China</option>
-					<option value="usa">USA</option>
-					<option value="indo">Indonesia</option>
-					<option value="eng">England</option>
+					<option value="INDIA">INDIA</option>
+					<option value="Australia">Australia</option>
+					<option value="Canada">Canada</option>
+					<option value="China">China</option>
+					<option value="USA">USA</option>
+					<option value="Indonesia">Indonesia</option>
+					<option value="England">England</option>
 				</select><br><br>
 				<label for="message">Message</label><br>
 				<textarea id="msg" name="message" placeholder="Enter your message here.." style="height:200px"></textarea><br><br>
-				<input type="submit" value="submit"/>
+				<input type="submit" name=sendmessage value="submit"/>
 			</form>
 		</div>
 			<br>

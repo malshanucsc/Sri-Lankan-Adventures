@@ -229,38 +229,91 @@
 </div>
 </div>
 
-	<div class="review">
-		<div class="row" style="margin-top:40px;">
-			<div class="col-md-6">
-			<div class="well well-sm">
-				<div class="text-right">
-					<a class="btn btn-success btn-green" href="#" id="reviewbox"> Leave a review</a>
-				</div>
-				<div class="row" id="postreview" style="display:none;">
-					<div class="col-md-12">
-						<form accept-charset="UTF-8" action="" method="post">
-							<input id="ratings" name="ratings" type="hidden">
-							<textarea class="form-control animated" cols="50" id="new-review" name="comment" placeholder="Enter your review" rows="5"></textarea>
+
+
+	
+
+<div class="col-md-12">
+						<form accept-charset="UTF-8" action="../actions/review.php" method="post" id="reviewform">
+
+							<label for="usrname"><span class="glyphicon glyphicon-user"></span> You review</label>
+								<input type="text" name="name" class="form-control"  placeholder="Enter Name">
+								<input type="email" name="email" class="form-control" id="usrname" placeholder="Enter email">
+
+							<textarea class="form-control animated" name="review" cols="50" id="new-review"  placeholder="Enter your review" rows="3"></textarea>
 							
-							<div class="text-right">
-								<div class="stars star" data-rating="0"></div>
-								<a class="btn btn-danger btn-sm" href="#" id="closereview" style="display:none;margin-right:10px">
-								<span class="glyphicon glyphicon-remove"></span> Cancel</a>
-								<button class="btn btn-success btn-lg" type="submit">Save</button>
-							</div>
+								
+								<button onclick="submitform()" class="btn btn-success btn-lg pull-right" type="submit">Save</button>
 							</form>
 					</div>
 				
-				
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
-	
+
+
 </div>
+
+<div class=col-md-10>
+
+<?php
+include '../actions/db.php';
+$sql = "SELECT * FROM review";
+
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+
+?>
+
+
+
+  <table>
+  <tr>
+  
+  <th>Name</th>
+  <th>Review</th>
+  <th>Email</th>
+  
+
+  </tr>
+
+
+
+
+	<?php
+// getting assignment details fro assignment table to get the assignment name
+  while($row= $result->fetch_assoc() ) {
+    ?>
+    <tr>
+<!-- assignment title -->
+    <td><?php echo $row['Name']; ?></td>
+    <td><?php echo $row['Email']; ?></td>
+    <td><?php echo $row['review']; ?></td>
+</tr>
+<?php
+}
+    }else{
+    	?>
+    	<tr><td>
+    	<?php
+      echo "No Data";
+?>
+</td></tr>
+<?php
+    }
+
+  ?>
+
+
+</div>
+
  <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
 <script src="../javascript/review.js"></script>
 </body>
 </html>
+
+<script type="text/javascript">
+	function submitform(){
+		 document.getElementById("reviewform").submit();
+	}
+
+</script>
