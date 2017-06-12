@@ -8,7 +8,7 @@ $name=$_POST['name'];
 $email=$_POST['email'];
 $review=$_POST['review'];
 
-    $enterreview="INSERT INTO review (Name,Email,review) VALUES ('$name','$email','$review')"; 
+    $enterreview="INSERT INTO review (Name,Email,Review,date_time) VALUES ('$name','$email','$review','$sendingdate')"; 
 
     include ('db.php'); 
 

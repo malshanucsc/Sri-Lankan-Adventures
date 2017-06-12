@@ -233,23 +233,6 @@
 
 	
 
-<div class="col-md-12">
-						<form accept-charset="UTF-8" action="../actions/review.php" method="post" id="reviewform">
-
-							<label for="usrname"><span class="glyphicon glyphicon-user"></span> You review</label>
-								<input type="text" name="name" class="form-control"  placeholder="Enter Name">
-								<input type="email" name="email" class="form-control" id="usrname" placeholder="Enter email">
-
-							<textarea class="form-control animated" name="review" cols="50" id="new-review"  placeholder="Enter your review" rows="3"></textarea>
-							
-								
-								<button onclick="submitform()" class="btn btn-success btn-lg pull-right" type="submit">Save</button>
-							</form>
-					</div>
-				
-
-
-</div>
 
 <div class=col-md-10>
 
@@ -265,45 +248,104 @@ if ($result->num_rows > 0) {
 
 
 
-  <table>
-  <tr>
-  
-  <th>Name</th>
-  <th>Review</th>
-  <th>Email</th>
-  
-
-  </tr>
 
 
 
 
-	<?php
+</div>
+
+
+
+<div class="container">
+    
+    <hr />
+    <div class="row">
+        <div class="col-sm-9 col-md-10">
+            <div class="msg-wrap">
+                <p class="thread-title">Current Reviews</p>
+
+    <?php
 // getting assignment details fro assignment table to get the assignment name
   while($row= $result->fetch_assoc() ) {
     ?>
-    <tr>
+
 <!-- assignment title -->
-    <td><?php echo $row['Name']; ?></td>
-    <td><?php echo $row['Email']; ?></td>
-    <td><?php echo $row['review']; ?></td>
-</tr>
+   
+
+
+
+                <div class="msg odd">
+                    <div class="col-md-3 author">
+                        <h5 class="media-heading"> <?php echo $row['Name']; ?><br>    <?php echo $row['Email']; ?> <small class="text-muted"> </small></h5><small class="text-muted">
+                        <i class="fa fa-clock-o"></i>     <?php echo $row['date_time']; ?></small>
+                        <a href="#" class="">
+                            <img src="../images/no-image.jpg" style="width: 64px; height: 64px;" alt="64x64" data-src="holder.js/64x64" class="media-object">
+                        </a>
+                    </div>
+                    <div class="col-md-9">
+                          <?php echo $row['Review']; ?>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
 <?php
 }
     }else{
-    	?>
-    	<tr><td>
-    	<?php
+        ?>
+
+        <?php
       echo "No Data";
 ?>
-</td></tr>
+
 <?php
     }
 
   ?>
 
 
+
+                
+            </div>
+
+            <div class="send-wrap ">
+
+
+
+            <div class="col-md-12">
+                        <form accept-charset="UTF-8" action="../actions/review.php" method="post" id="reviewform">
+<div class="form-group">
+                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> You review</label>
+                                <input type="text" name="name" class="form-control"  placeholder="Enter Name">
+                                <input type="email" name="email" class="form-control" id="usrname" placeholder="Enter email">
+
+                            <textarea class="form-control animated" name="review" cols="50" id="new-review"  placeholder="Enter your review" rows="3"></textarea>
+                            </div>
+                                <div class="form-group">
+                                <button onclick="submitform()" class="btn btn-info" type="submit">Save</button>
+                                </div>
+                            </form>
+                    </div>
+                
+
+
 </div>
+
+
+
+
+                          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 
  <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
