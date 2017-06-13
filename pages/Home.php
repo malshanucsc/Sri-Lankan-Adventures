@@ -44,19 +44,27 @@
 </div>
 
 	<div id="upbanner" class="pull-right " >
-	 <select>
-				  <option value="1">Whale Watching</option>
-				  <option value="2">Wild safari</option>
-				  <option value="3">Surfing</option>
-				  <option value="4">Diving</option>
-				  <option value="5">Sun bathing</option>
-				  <option value="6">Historical place visit</option>
-				  <option value="7">Hill country visit</option>
-				  <option value="8">Ayurvedic spa</option> 
-				  <option value="9">Meditation and Yoga</option>
+	 <select id="select">
+				  <option value="">Looking For..</option>
+				  <option value="whale_watching.php">Whale Watching</option>
+				  <option value="safari.php">Wild safari</option>
+				  <option value="surfing.php">Surfing</option>
+				  <option value="diving.php">Diving</option>
+				  <option value="sunbathe.php">Sun bathing</option>
+				  <option value="historical.php">Historical place visit</option>
+				  <option value="hill_country.php">Hill country visit</option>
+				  <option value="ayurveda.php">Ayurvedic spa</option> 
+				  <option value="meditation.php">Meditation and Yoga</option>
 				  </select>
-		<input type="submit" id="search_button" value="search"/>
+		
 &nbsp&nbsp&nbsp		<button type="button" class="pull-right" id="myBtn">Login</button>
+		<script>
+			document.getElementById("select").onchange=function(){
+				if(this.selectedIndex!==0){
+					window.location.href=this.value;
+				}
+			};
+		</script>
 	</div>
 	<br>
 	
@@ -129,7 +137,7 @@
 						<div class="item active slide1">
 							<div class="row">
 								<div class="container">
-									<div class="col-md-3 text">
+									<div class="col-md-9 text">
 									<!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
 									</div>
 									<div class="col-md-7 text-left">
@@ -141,21 +149,23 @@
 						</div> 
 					<!-- Item 2 -->
 					<div class="item slide2">
-						<div class="row"><div class="container">
-							<div class="col-md-9 text-left">
-								<h3 data-animation="animated bounceInDown">CLIMATE VARIATION</h3>
-								<h4 data-animation="animated bounceInUp">SRI LANKAN SEA SIDES </h4>
-							 </div>
-							<div class="col-md-5 text-right">
-				  
-								<!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/sp11uneml/rack_server_unlock.png"> -->
+						<div class="row">
+							<div class="container">
+								<div class="col-md-9 text-left">
+									<h3 data-animation="animated bounceInDown">CLIMATE VARIATION</h3>
+									<h4 data-animation="animated bounceInUp">SRI LANKAN SEA SIDES </h4>
+								 </div>
+								<div class="col-md-5 text-right">
+					  
+									<!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/sp11uneml/rack_server_unlock.png"> -->
+								</div>
 							</div>
-						</div></div>
+						</div>
 					</div>
 					<!-- Item 3 -->
 					<div class="item slide3">
 						<div class="row"><div class="container">
-							<div class="col-md-7 text-left">
+							<div class="col-md-9 text-left">
 								<h3 data-animation="animated bounceInDown">PLENTY OF WILD LIFE</h3>
 								<h4 data-animation="animated bounceInUp">SRI LANKAN RAIN FORESTS</h4>
 							 </div>
@@ -167,7 +177,7 @@
 					<!-- Item 4 -->
 					<div class="item slide4">
 						<div class="row"><div class="container">
-							<div class="col-md-7 text-left">
+							<div class="col-md-9 text-left">
 								<h3 data-animation="animated bounceInDown">SRI LANKAN CULTURE</h3>
 								<h4 data-animation="animated bounceInUp">AYURVEDA MEDICINES</h4>
 							 </div>
@@ -181,7 +191,7 @@
                         <!-- Item 5 -->
 					<div class="item slide5">
 						<div class="row"><div class="container">
-							<div class="col-md-7 text-left">
+							<div class="col-md-9 text-left">
 								<h3 data-animation="animated bounceInDown">SRI LANKAN UPPER HILLS</h3>
 								<h4 data-animation="animated bounceInUp">SRI LANKAN WATERFALLS</h4>
 							 </div>
@@ -195,7 +205,7 @@
                         <!-- Item 6 -->
 					<div class="item slide6">
 						<div class="row"><div class="container">
-							<div class="col-md-7 text-left">
+							<div class="col-md-9 text-left">
 								<h3 data-animation="animated bounceInDown">PROUD HISTORY</h3>
 								<h4 data-animation="animated bounceInUp">SRI LANKAN CAVE TEMPLES</h4>
 							 </div>
@@ -209,7 +219,7 @@
                         <!-- Item 7 -->
 					<div class="item slide7">
 						<div class="row"><div class="container">
-							<div class="col-md-7 text-left">
+							<div class="col-md-9 text-left">
 								<h3 data-animation="animated bounceInDown">PLENTY OF RIVERS</h3>
 								<h4 data-animation="animated bounceInUp">PICTURESQUE VIEW</h4>
 							 </div>

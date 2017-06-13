@@ -22,7 +22,7 @@
 	<div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills ">
-				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>
@@ -210,24 +210,25 @@
 	</div>
 	<div id="abc">
 		<!-- Popup Div Starts Here -->
-			<div id="popupContact">
-				<!-- Contact Us Form -->
-					<form action="#" id="form" method="post" name="form">
-						<img id="close" src="../images/ whale_boat.jpg" onclick ="div_hide()">
-						<h2 id="contact">Contact Us</h2>
-						<hr>
-						<input id="name" name="name" placeholder="Name" type="text">
-						<input id="email" name="email" placeholder="Email" type="text">
-						<textarea id="msg" name="message" placeholder="Message"></textarea>
-						<a href="javascript:%20check_empty()" id="submit">Send</a>
-					</form>
-			</div>
+			<div class="contact_form">
+			<form action="../actions/sendmessage.php" method="post">
+				<label for="name"> Your Name</label><br>
+				<input type="text" required="required" id="name" name="name" placeholder="Your Name"/><br><br>
+				<label for="email"> Email</label><br>
+				<input type="email" required="required"  id="email" name="email" placeholder="Your Email"/><br><br>
+				<label for="contact_number"> Contact No.</label><br>
+				<input type="text" id= "contact_number" name="contact_number" placeholder="Your Contact Number"/><br><br>
+				<label for="message">Message</label><br>
+				<textarea id="msg" name="message" placeholder="Your message here.." style="height:200px"></textarea><br><br>
+				<input type="submit" name=sendmessage value="submit"/>
+			</form>
+		</div>
 			<!-- Popup Div Ends Here -->
 	</div>
 		<!-- Display Popup Button -->
 
 	<button id="popup" onclick="div_show()">contact us</button>
-
+	</div>
 </div>
 	<script type="text/javascript" src="../javascript/jquery.js"></script>
 	<script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>
