@@ -22,7 +22,7 @@
 	<div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills ">
-				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>
@@ -45,19 +45,27 @@
 	<br>
 
 	<div id="upbanner" class="pull-right " >
-				<select>
-				  <option value="1">Whale Watching</option>
-				  <option value="2">Wild safari</option>
-				  <option value="3">Surfing</option>
-				  <option value="4">Diving</option>
-				  <option value="5">Sun bathing</option>
-				  <option value="6">Historical place visit</option>
-				  <option value="7">Hill country visit</option>
-				  <option value="8">Ayurvedic spa</option> 
-				  <option value="9">Meditation and Yoga</option>
-				</select>
-		<input type="submit" id="search_button" value="search"/>
-		<button type="button" class="pull-right" id="myBtn">Login</button>
+				<select id="select">
+				  <option value="">Looking For..</option>
+				  <option value="whale_watching.php">Whale Watching</option>
+				  <option value="safari.php">Wild safari</option>
+				  <option value="surfing.php">Surfing</option>
+				  <option value="diving.php">Diving</option>
+				  <option value="sunbathe.php">Sun bathing</option>
+				  <option value="historical.php">Historical place visit</option>
+				  <option value="hill_country.php">Hill country visit</option>
+				  <option value="ayurveda.php">Ayurvedic spa</option> 
+				  <option value="meditation.php">Meditation and Yoga</option>
+				  </select>
+		
+&nbsp&nbsp&nbsp <button type="button" class="pull-right" id="myBtn">Login</button>
+		<script>
+			document.getElementById("select").onchange=function(){
+				if(this.selectedIndex!==0){
+					window.location.href=this.value;
+				}
+			};
+		</script>
 	</div>
 	<br>
 	

@@ -187,24 +187,24 @@ margin-left: 65%;
 
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3{
-    color:black;
+    color:white;
     font-size: 35px;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4{
-    color: black;
-    font-size:16px;
+    color: white;
+    font-size:18px;
       text-transform: uppercase;
       
 	  margin-left:10%;
 	  margin-top:5%;
 	  font-family:Impact, Charcoal, sans-serif;
-	  letter-spacing:8px;
+	  letter-spacing:9px;
 }
 #first-slider .slide1 .text-left ,#first-slider .slide3 .text-left{
     padding-left: 20px;
@@ -350,17 +350,17 @@ margin-left: 65%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/sunbathingfans.jpg);
+    background-image: url(../images/bathe.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/goldenbeaches.jpg);
+  background-image: url(../images/gold.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/tropicalsun.jpg);
+  background-image: url(../images/sun.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }

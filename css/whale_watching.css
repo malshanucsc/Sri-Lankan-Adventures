@@ -22,7 +22,7 @@ width: 90%;
  border-bottom: 2px solid #4CAF50;
 border-radius: 5px;
  position: fixed;
- /*z-index: 1001;*/
+ z-index: 1001;
 
 }
 #logo{
@@ -58,7 +58,7 @@ font-family: 'Open Sans', sans-serif;
 #upbanner{
 position: fixed;
   margin-top: 6.5%;
-  z-index: 0;
+  z-index: 1001;
 margin-left: 65%;
   
 }
@@ -98,7 +98,7 @@ margin-left: 65%;
 #upmenu{
   position: fixed;
   margin-top: 6.5%;
-z-index: 0;
+z-index: 1001;
     margin-left: 20%;
 }
 
@@ -189,24 +189,24 @@ z-index: 0;
 
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
-    color:black;
+    color:white;
     font-size: 35px;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
-    color: black;
-    font-size:16px;
+    color: white;
+    font-size:18px;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
 	  margin-top:5%;
 	  font-family:Impact, Charcoal, sans-serif;
-	  letter-spacing:8px;
+	  letter-spacing:10px;
 }
 #first-slider .slide1 .text-left ,#first-slider .slide3 .text-left{
     padding-left: 20px;
@@ -433,14 +433,15 @@ left:0;
 display:none;
 position:fixed;
 background-color:#313131;
-overflow:auto
+overflow:auto;
+z-index:1500;
 }
-/*img#close {
+img#close {
 position:absolute;
 right:-14px;
 top:-14px;
 cursor:pointer
-}*/
+}
 .contact_form{
 position:fixed;
 left:50%;

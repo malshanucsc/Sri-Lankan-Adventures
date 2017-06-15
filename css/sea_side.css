@@ -343,7 +343,7 @@ margin-left: 65%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/sea1.jpg);
+    background-image: url(../images/beach.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -353,7 +353,7 @@ margin-left: 65%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/sea2.jpg);
+  background-image: url(../images/stilt.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }

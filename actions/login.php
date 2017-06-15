@@ -23,7 +23,8 @@ include 'db.php';
            header("Location: ../pages/admin/admin.php");
            
   }else{
-            echo "You're not signed up. Click below to register!"; 
+            echo '<script type="text/javascript">','alert("You are not signed up. Click below to register!");','</script>'; 
+			 header("Location: ../pages/Home.php");
         }
         
    }

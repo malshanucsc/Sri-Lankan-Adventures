@@ -192,13 +192,13 @@ margin-left: 65%;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
     color: white;
-    font-size:15px;
+    font-size:18px;
       text-transform: uppercase;
     
 	  margin-left:10%;
@@ -349,12 +349,12 @@ margin-left: 65%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/culture.jpg);
+    background-image: url(../images/cul1.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/perahara.jpg);
+  background-image: url(../images/cul2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
@@ -364,7 +364,7 @@ margin-left: 65%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/dance.jpg);
+  background-image: url(../images/cul3.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }

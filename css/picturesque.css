@@ -175,7 +175,7 @@ margin-left: 65%;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
@@ -337,17 +337,17 @@ margin-left: 65%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/teastate.jpg);
+  background-image: url(../images/tea2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/picstate.jpg);
+  background-image: url(../images/tea1.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/rubber.jpg);
+  background-image: url(../images/tea3.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }

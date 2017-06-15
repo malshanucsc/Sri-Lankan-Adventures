@@ -187,18 +187,18 @@ margin-left: 65%;
 
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3, #first-slider .slide5 h3, #first-slider .slide6 h3, #first-slider .slide7 h3{
-    color:black;
+    color:white;
     font-size: 35px;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4,#first-slider .slide5 h4,#first-slider .slide6 h4,#first-slider .slide7 h4{
-    color: black;
-    font-size:16px;
+    color: white;
+    font-size:18px;
       text-transform: uppercase;
      
 	  margin-left:10%;

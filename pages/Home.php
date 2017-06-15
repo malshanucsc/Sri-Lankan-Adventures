@@ -82,7 +82,7 @@
 		<!-- Modal content-->
 		<div class="modal-content">
 			<div class="modal-header" style="padding:35px 50px;">
-				<button type="button" class="close" data-dismiss="modal" &times;</button>
+				<button type="button" class="close" data-dismiss="modal &times";></button>
 				<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
 			</div>
 			<div class="modal-body" style="padding:40px 50px;">
@@ -308,31 +308,8 @@ By contacting us you will be able to find out the best suited places for your jo
 From the arrival to Sri Lanka till the departure we will serve you heartfully creating remarkable memories of a wonderful journey in your heart. 
 </p>
 </div>
-<br>
-<br>
-<br>
-<div id="downbanner" class="col-md-12" >
-
-                  &copy; sawanisasanka@gmail.com
-                    
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
 
   <script type="text/javascript" src="../javascript/jquery.js"></script>
   <script type="text/javascript" src="../css/bootstrap/js/bootstrap.js"></script>

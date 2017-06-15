@@ -45,19 +45,27 @@
 	<br>
 
 	<div id="upbanner" class="pull-right " >
-				<select>
-				  <option value="1">Whale Watching</option>
-				  <option value="2">Wild safari</option>
-				  <option value="3">Surfing</option>
-				  <option value="4">Diving</option>
-				  <option value="5">Sun bathing</option>
-				  <option value="6">Historical place visit</option>
-				  <option value="7">Hill country visit</option>
-				  <option value="8">Ayurvedic spa</option> 
-				  <option value="9">Meditation and Yoga</option>
-				</select>
-		<input type="submit" id="search_button" value="search"/>
-&nbsp&nbsp&nbsp		<button type="button" class="pull-right" id="myBtn">Login</button>
+				<select id="select">
+				  <option value="">Looking For..</option>
+				  <option value="whale_watching.php">Whale Watching</option>
+				  <option value="safari.php">Wild safari</option>
+				  <option value="surfing.php">Surfing</option>
+				  <option value="diving.php">Diving</option>
+				  <option value="sunbathe.php">Sun bathing</option>
+				  <option value="historical.php">Historical place visit</option>
+				  <option value="hill_country.php">Hill country visit</option>
+				  <option value="ayurveda.php">Ayurvedic spa</option> 
+				  <option value="meditation.php">Meditation and Yoga</option>
+				  </select>
+		
+&nbsp&nbsp&nbsp <button type="button" class="pull-right" id="myBtn">Login</button>
+		<script>
+			document.getElementById("select").onchange=function(){
+				if(this.selectedIndex!==0){
+					window.location.href=this.value;
+				}
+			};
+		</script>
 	</div>
 	<br>
 	
@@ -212,6 +220,7 @@
 		<!-- Popup Div Starts Here -->
 			<div class="contact_form">
 			<form action="../actions/sendmessage.php" method="post">
+				<img id="close" src="../images/ cancel.png" onclick ="div_hide()">
 				<label for="name"> Your Name</label><br>
 				<input type="text" required="required" id="name" name="name" placeholder="Your Name"/><br><br>
 				<label for="email"> Email</label><br>

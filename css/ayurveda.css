@@ -72,6 +72,7 @@ margin-left: 65%;
   /*border-color: #f1f1f1;*/
   border-style: solid;
   border-radius: 5px;
+  overflow:hidden;
 }
 
 .btn {
@@ -108,6 +109,14 @@ margin-left: 65%;
 	
 }
 #paragraph{
+	margin-left:15%;
+
+	width:70%;
+	
+	color:black;
+	
+}
+#info{
 	margin-left:15%;
 
 	width:70%;
@@ -184,13 +193,13 @@ margin-left: 65%;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
     color: black;
-    font-size:16px;
+    font-size:18px;
       text-transform: uppercase;
       
 	  margin-left:10%;
@@ -340,22 +349,22 @@ margin-left: 65%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/Spa-therapy-2.jpg);
+    background-image: url(../images/ay1.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/herbs.jpg);
+  background-image: url(../images/herbal.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/treatment.jpg);
+  background-image: url(../images/ay2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/illness.jpg);
+  background-image: url(../images/ill.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -422,7 +431,8 @@ left:0;
 display:none;
 position:fixed;
 background-color:#313131;
-overflow:auto
+overflow:auto;
+z-index:1500;
 }
 img#close {
 position:absolute;
@@ -430,67 +440,50 @@ right:-14px;
 top:-14px;
 cursor:pointer
 }
-div#popupContact {
-position:absolute;
+.contact_form{
+position:fixed;
 left:50%;
-top:17%;
+top:3%;
 margin-left:-202px;
-font-family:'Raleway',sans-serif
+font-family:'Raleway',sans-serif;
+
 }
 form {
-max-width:300px;
-min-width:250px;
+
 padding:10px 50px;
 border:2px solid gray;
 border-radius:10px;
 font-family:raleway;
-background-color:#fff
+background-color:#fff;
+
+
 }
 p {
 margin-top:30px
 }
-#contact {
-background-color:#FEFFED;
-padding:20px 35px;
-margin:-10px -50px;
-text-align:center;
-border-radius:10px 10px 0 0
-}
-hr {
-margin:10px -50px;
-border:0;
-border-top:1px solid #ccc
-}
+
 input[type=text] {
-width:82%;
+width:100%;
 padding:10px;
 margin-top:30px;
 border:1px solid #ccc;
-padding-left:40px;
+width:100%;
+height:45px;
 font-size:16px;
+text-align:left;
 font-family:raleway
-}
-#name {
-background-image:url(../images/name.jpg);
-background-repeat:no-repeat;
-background-position:5px 7px
-}
-#email {
-background-image:url(../images/email.png);
-background-repeat:no-repeat;
-background-position:5px 7px
 }
 textarea {
 background-image:url(../images/msg.png);
 background-repeat:no-repeat;
 background-position:5px 7px;
-width:82%;
+width:100%;
 height:95px;
 padding:10px;
 resize:none;
 margin-top:30px;
 border:1px solid #ccc;
-padding-left:40px;
+
 font-size:16px;
 font-family:raleway;
 margin-bottom:30px

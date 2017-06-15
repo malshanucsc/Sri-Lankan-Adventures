@@ -71,6 +71,7 @@ margin-left: 65%;
   border:2px solid #f1f1f1;
   /*border-color: #f1f1f1;*/
   border-style: solid;
+  overflow:hidden;
   border-radius: 5px;
 }
 
@@ -169,17 +170,17 @@ margin-left: 65%;
 
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3, #first-slider .slide5 h3{
-    color:black;
+    color:white;
     font-size: 35px;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4,#first-slider .slide5 h4{
-    color: black;
+    color: white;
     font-size:16px;
       text-transform: uppercase;
      
@@ -331,17 +332,17 @@ margin-left: 65%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/hortan.jpg);
+    background-image: url(../images/hill1new.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/waterfalls.jpg);
+  background-image: url(../images/hill2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/estate.jpg);
+  background-image: url(../images/hill3.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }

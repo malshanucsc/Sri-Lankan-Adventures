@@ -115,13 +115,7 @@ margin-left: 65%;
 	color:black;
 	
 }
-#info{
-	margin-left:15%;
 
-	width:70%;
-	
-	color:black;
-}
 .gallery {
     margin: 5px;
     
@@ -156,20 +150,6 @@ margin-left: 65%;
 	margin-left:10%;
 	
 }
-#service{
-	font-size:20px;
-	margin-left:15%;
-	width:70%;
-	margin-top: 30%;
-	font-weight:700px;
-	color:black;
-
-}
-
-
-
-
-
 
 #first-slider{
 	/*margin-top: 13%;*/
@@ -192,15 +172,15 @@ margin-left: 65%;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
     color: white;
-    font-size:16px;
+    font-size:18px;
       text-transform: uppercase;
-     
+      
 	  margin-left:10%;
 	  margin-top:5%;
 	  font-family:Impact, Charcoal, sans-serif;
@@ -369,11 +349,11 @@ margin-left: 65%;
     background-repeat: no-repeat;
 }
 #activities{
-	font-size:20px;
+	
 	margin-left:15%;
 	width:70%;
 	margin-top: 5%;
-	font-weight:700px;
+	
 	color:black;
 }
 

@@ -58,7 +58,6 @@
 				  <option value="meditation.php">Meditation and Yoga</option>
 				  </select>
 		
-&nbsp&nbsp&nbsp		<button type="button" class="pull-right" id="myBtn">Login</button>
 		<script>
 			document.getElementById("select").onchange=function(){
 				if(this.selectedIndex!==0){
@@ -70,52 +69,9 @@
 	<br>
 	
 	<div id="pagebody">
-	
-		<div class="container">
-  
-			<div class="modal fade" id="myModal" role="dialog">
-				<div class="modal-dialog">
-    
-		<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header" style="padding:35px 50px;">
-							<button type="button" class="close" data-dismiss="modal" &times;</button>
-							<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
-						</div>
-						<div class="modal-body" style="padding:40px 50px;">
-						<form role="form">
-							<div class="form-group">
-								<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-								<input type="text" class="form-control" id="usrname" placeholder="Enter email">
-							</div>
-							<div class="form-group">
-								<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-								<input type="text" class="form-control" id="psw" placeholder="Enter password">
-							</div>
-							<div class="checkbox">
-								<label><input type="checkbox" value="" checked>Remember me</label>
-							</div>
-							<button type="submit" class="btn1 btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-						</form>
-						</div>
-						<div class="modal-footer">
-							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-							<p>Not a member? <a href="#">Sign Up</a></p>
-							<p>Forgot <a href="#">Password?</a></p>
-						</div>
-					</div>
-      
-				</div>
-			</div> 
-		</div>
 		<br>
-
-
-
-
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
 
 	<div class="col-md-12">
 		<div id="first-slider" class="col-md-10" >
@@ -247,28 +203,28 @@
 						<a  href="surfing.php">
 						<img src="../images/3.jpg" alt="Fjords" width="300" height="200">
 						</a>
-						<div class="desc"><h3>Surfing</h3>dangerous... but maxximum thrill..</div>
+						<div class="desc"><h3>Surfing</h3>Dangerous... but maxximum thrill..</div>
 					</div>
 						
 					<div class="gallery">
 						<a  href="whale_watching.php">
 						<img src="../images/whale.jpg" alt="Forest" width="300" height="200">
 						</a>
-						<div class="desc"><h3>Whale Watchiing</h3> awesome.. heart stopping view...</div>
+						<div class="desc"><h3>Whale Watchiing</h3> Awesome.. heart stopping view...</div>
 					</div>
 						
 					<div class="gallery">
 					  <a  href="diving.php">
 						<img src="../images/snorkeling.jpg" alt="Northern Lights" width="300" height="200">
 					  </a>
-					  <div class="desc"><h3>Diving and Snorkeling...</h3> awesome experience..</div>
+					  <div class="desc"><h3>Diving and Snorkeling...</h3> Awesome experience..</div>
 					</div>
 						
 					<div class="gallery">
 					  <a  href="sunbathe.php">
 						<img src="../images/sun_bathe.jpg" alt="Mountains" width="300" height="200">
 					  </a>
-					  <div class="desc"><h3>Sun Bathe </h3>feel the sun rise... make your skin color looking wow..</div>
+					  <div class="desc"><h3>Sun Bathe </h3>Feel the sun rise... make your skin color looking wow..</div>
 					</div>
 						
 				</div>	

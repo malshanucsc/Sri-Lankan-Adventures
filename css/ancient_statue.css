@@ -187,18 +187,18 @@ margin-left: 65%;
 
 
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
-    color:black;
+    color:white;
     font-size: 35px;
       text-transform: uppercase;
       font-weight:700;
 	  margin-left:10%;
-	  margin-top:30%;
+	  margin-top:0%;
 	  font-family:Impact, Charcoal, sans-serif;
 	  letter-spacing:8px;
 }
 #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
-    color: black;
-    font-size:16px;
+    color: white;
+    font-size:18px;
       text-transform: uppercase;
       
 	  margin-left:10%;
@@ -353,17 +353,17 @@ margin-left: 65%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/stone.jpg);
+  background-image: url(../images/mura3.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/muragala.jpg);
+  background-image: url(../images/mura2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/cave2.jpg);
+  background-image: url(../images/sigiriya2.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }

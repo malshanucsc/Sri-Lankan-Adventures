@@ -22,7 +22,7 @@
 	<div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills ">
-				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>

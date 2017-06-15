@@ -22,7 +22,7 @@
 	<div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills ">
-				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>
@@ -45,66 +45,30 @@
 	<br>
 
 	<div id="upbanner" class="pull-right " >
-				<select>
-				  <option value="1">Whale Watching</option>
-				  <option value="2">Wild safari</option>
-				  <option value="3">Surfing</option>
-				  <option value="4">Diving</option>
-				  <option value="5">Sun bathing</option>
-				  <option value="6">Historical place visit</option>
-				  <option value="7">Hill country visit</option>
-				  <option value="8">Ayurvedic spa</option> 
-				  <option value="9">Meditation and Yoga</option>
-				</select>
-		<input type="submit" id="search_button" value="search"/>
-		<button type="button" class="pull-right" id="myBtn">Login</button>
+				<select id="select">
+				  <option value="">Looking For..</option>
+				  <option value="whale_watching.php">Whale Watching</option>
+				  <option value="safari.php">Wild safari</option>
+				  <option value="surfing.php">Surfing</option>
+				  <option value="diving.php">Diving</option>
+				  <option value="sunbathe.php">Sun bathing</option>
+				  <option value="historical.php">Historical place visit</option>
+				  <option value="hill_country.php">Hill country visit</option>
+				  <option value="ayurveda.php">Ayurvedic spa</option> 
+				  <option value="meditation.php">Meditation and Yoga</option>
+				  </select>
+		<script>
+			document.getElementById("select").onchange=function(){
+				if(this.selectedIndex!==0){
+					window.location.href=this.value;
+				}
+			};
+		</script>
 	</div>
 	<br>
 	
 	<div id="pagebody">
-	
-		<div class="container">
-  
-			<div class="modal fade" id="myModal" role="dialog">
-				<div class="modal-dialog">
-    
-				<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header" style="padding:35px 50px;">
-							<button type="button" class="close" data-dismiss="modal" &times;</button>
-							<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
-						</div>
-						<div class="modal-body" style="padding:40px 50px;">
-						<form role="form">
-							<div class="form-group">
-								<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-								<input type="text" class="form-control" id="usrname" placeholder="Enter email">
-							</div>
-							<div class="form-group">
-								<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-								<input type="text" class="form-control" id="psw" placeholder="Enter password">
-							</div>
-							<div class="checkbox">
-								<label><input type="checkbox" value="" checked>Remember me</label>
-							</div>
-							<button type="submit" class="btn1 btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-						</form>
-						</div>
-						<div class="modal-footer">
-							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-							<p>Not a member? <a href="#">Sign Up</a></p>
-							<p>Forgot <a href="#">Password?</a></p>
-						</div>
-					</div>
-      
-				</div>
-			</div> 
-		</div>
 		<br>
-
-
-
-
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
@@ -195,7 +159,7 @@
 				<li>Ayurveda</li>
 				<li>Meditation</li>
 				<li>Watch traditional events</li>
-				<li>sri lankan cultural rituals and beliefs</li>
+				<li>Sri lankan cultural rituals and beliefs</li>
 				</ul>
 			<p>You can found plenty of cultural events in Sri Lanka which are amazingly highlight the great culture of Sri Lankans. During your journey around Sri Lanka don't forsake to take a look at Sri Lankan culture, because it will certainly add pleasing memories to your heart making your journey a significant one. The amazing culture of Sri Lankans will make you feel the creativity, friendliness, unity and uniqueness of Sri Lankans.
 			</p>
@@ -208,21 +172,21 @@
 			  <a target="" href="ayurveda.php">
 				<img src="../images/ay.jpg" alt="Fjords" width="300" height="200" style="border:solid">
 			  </a>
-			  <div class="desc"><h3>AYURVEDA</h3>way of healing with te power of natural herbs..</div> 
+			  <div class="desc"><h3>AYURVEDA</h3>Way of healing with te power of natural herbs..</div> 
 			</div>
 
 			<div class="gallery">
 			  <a target="" href="meditation.php">
 				<img src="../images/m.jpg" alt="Forest" width="300" height="200"style="border:solid">
 			  </a>
-			  <div class="desc"><h3>MEDITATION AND YOGA</h3> strngthen up you spiritual of mind..</div>
+			  <div class="desc"><h3>MEDITATION AND YOGA</h3> Strengthen up you spiritual of mind..</div>
 			</div>
 
 			<div class="gallery">
 			  <a target="" href="studying_culture.php">
 				<img src="../images/a.jpg" alt="Northern Lights" width="300" height="200"style="border:solid">
 			  </a>
-			  <div class="desc"><h3>STUDYING CULTURE</h3> amazing talents passed frm ancesstors..</div>
+			  <div class="desc"><h3>STUDYING CULTURE</h3> Amazing talents passed from ancesstors..</div>
 			</div>
 
 

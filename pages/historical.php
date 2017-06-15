@@ -22,7 +22,7 @@
 	<div class="col-md-12" id="upmenu">
 
 			<ul class="nav nav-pills ">
-				<li role="presentation" class="active"><a href="Home.php">Home</a></li>
+				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
 							<a href="sea_side.php"> sea side</a>
@@ -45,65 +45,31 @@
 	<br>
 
 	<div id="upbanner" class="pull-right " >
-				<select>
-				  <option value="1">Whale Watching</option>
-				  <option value="2">Wild safari</option>
-				  <option value="3">Surfing</option>
-				  <option value="4">Diving</option>
-				  <option value="5">Sun bathing</option>
-				  <option value="6">Historical place visit</option>
-				  <option value="7">Hill country visit</option>
-				  <option value="8">Ayurvedic spa</option> 
-				  <option value="9">Meditation and Yoga</option>
-				</select>
-		<input type="submit" id="search_button" value="search"/>
-		<button type="button" class="pull-right" id="myBtn">Login</button>
+				<select id="select">
+				  <option value="">Looking For..</option>
+				  <option value="whale_watching.php">Whale Watching</option>
+				  <option value="safari.php">Wild safari</option>
+				  <option value="surfing.php">Surfing</option>
+				  <option value="diving.php">Diving</option>
+				  <option value="sunbathe.php">Sun bathing</option>
+				  <option value="historical.php">Historical place visit</option>
+				  <option value="hill_country.php">Hill country visit</option>
+				  <option value="ayurveda.php">Ayurvedic spa</option> 
+				  <option value="meditation.php">Meditation and Yoga</option>
+				  </select>
+	
+		<script>
+			document.getElementById("select").onchange=function(){
+				if(this.selectedIndex!==0){
+					window.location.href=this.value;
+				}
+			};
+		</script>
 	</div>
 	<br>
 	
 	<div id="pagebody">
-	
-		<div class="container">
-  
-			<div class="modal fade" id="myModal" role="dialog">
-				<div class="modal-dialog">
-    
-		<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header" style="padding:35px 50px;">
-							<button type="button" class="close" data-dismiss="modal" &times;</button>
-							<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
-						</div>
-						<div class="modal-body" style="padding:40px 50px;">
-						<form role="form">
-							<div class="form-group">
-								<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-								<input type="text" class="form-control" id="usrname" placeholder="Enter email">
-							</div>
-							<div class="form-group">
-								<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-								<input type="text" class="form-control" id="psw" placeholder="Enter password">
-							</div>
-							<div class="checkbox">
-								<label><input type="checkbox" value="" checked>Remember me</label>
-							</div>
-							<button type="submit" class="btn1 btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-						</form>
-						</div>
-						<div class="modal-footer">
-							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-							<p>Not a member? <a href="#">Sign Up</a></p>
-							<p>Forgot <a href="#">Password?</a></p>
-						</div>
-					</div>
-      
-				</div>
-			</div> 
-		</div>
 		<br>
-
-
-
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
@@ -131,7 +97,7 @@
 								  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
 								</div>
 								<div class="col-md-7 text-left">
-									<h3 data-animation="animated bounceInDown">WORLD FAMOUS SIGIRIYA FRESCOUS </h3>
+									<h3 data-animation="animated bounceInDown">WORLD FAMOUS SIGIRIYA FRESCOES </h3>
 									<h4 data-animation="animated bounceInUp"> at a single glance you will surely fall in love with sigiriya maidens.the frescoes of theancient beauty queens of sri lanka..</h4>          
 								 </div>
 							</div></div>
@@ -141,7 +107,7 @@
 							<div class="row"><div class="container">
 								<div class="col-md-9 text-left">
 									<h3 data-animation="animated bounceInDown">ANCIENT DEMONS AND GODS</h3>
-								  <h4 data-animation="animated bounceInUp">visitb the demoons and gods who was strongly blend with the life style of the ancient ancesstors of sri lanka..   </h4> 
+								  <h4 data-animation="animated bounceInUp">visit the demoons and gods who was strongly blend with the life style of the ancient ancesstors of sri lanka..   </h4> 
 								 </div>
 								<div class="col-md-5 text-right">
 					  
@@ -152,7 +118,7 @@
 						<div class="item slide3">
 							<div class="row"><div class="container">
 								<div class="col-md-9 text-left">
-									<h3 data-animation="animated bounceInDown">VISIT ANCIENT KINGS ANND ROYALTIES</h3>
+									<h3 data-animation="animated bounceInDown">VISIT ANCIENT KINGS AND ROYALTIES</h3>
 								  <h4 data-animation="animated bounceInUp">ages have been passed but the memories of them still exists and they come to alive  every time people visit these frescoes..</h4> 
 								 </div>
 								<div class="col-md-5 text-right">
