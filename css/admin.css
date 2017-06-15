@@ -134,6 +134,10 @@ li.dropdown{
 div #logout{
 	margin-top:72px;
 	margin-left:93%;
+
+}
+#logout{
+  display: block;
 }
 #logout a:link, a:visited{
 	
@@ -146,8 +150,11 @@ div #logout{
 	
 }
 #logout a:hover,a:active{
+
 	background-color: #1a75ff;
 }
+
+
 table{
 	border-collapse:collapse;
 	width:80%;
