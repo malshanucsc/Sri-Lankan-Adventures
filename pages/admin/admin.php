@@ -25,31 +25,7 @@
 		</div>
 	</div>	
 <br>
-	<div class="col-md-12" id="upmenu">
-
-				<ul class="nav nav-pills ">
-					<li role="presentation" class="active"><a href="admin.php">Home</a></li>
-					<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
-							<div class="dropdown-content">
-								<a href="../sea_side.php"> sea side</a>
-								<a href="../river.php"> river side</a>
-								<a href="../wildlife.php"> wild life</a>
-								
-							</div>
-					</li>
-					<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
-							<div class="dropdown-content">							
-								<a href="../culture.php"> culture</a>
-								<a href="../hill_country.php"> hill country</a>
-								<a href="../historical.php"> historical</a>
-							</div>
-					</li>
-					<li role="presentation"><a href="../reviews.php">Reviews</a></li>
-					<li role="presentation"><a href="../contact.php">Contact Us</a></li>
-				</ul>
-	</div>
-	<br>
-
+	
 	<div id="logout">
 		<a href="logout.php"  style="color: black;" target="_parent">Logout</a>
 	</div>

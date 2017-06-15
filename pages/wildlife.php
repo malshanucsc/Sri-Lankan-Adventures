@@ -23,19 +23,19 @@
 
 			<ul class="nav nav-pills ">
 				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
-				<li role="presentation" class="active"><a href="#" class="drpbtn">Activities</a>
+				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
-							<a href="sea_side.php"> sea side</a>
-							<a href="river.php"> river side</a>
-							<a href="wildlife.php"> wild life</a>
+							<a href="sea_side.php"> Sea side</a>
+							<a href="river.php"> River side</a>
+							<a href="wildlife.php"> Wild life</a>
 							
 						</div>
 				</li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
 						<div class="dropdown-content">							
-							<a href="culture.php"> culture</a>
-							<a href="hill_country.php"> hill country</a>
-							<a href="historical.php"> historical</a>
+							<a href="culture.php"> Culture</a>
+							<a href="hill_country.php"> Hill country</a>
+							<a href="historical.php"> Historical</a>
 						</div>
 				</li>
 				<li role="presentation"><a href="reviews.php">Reviews</a></li>
@@ -58,7 +58,7 @@
 				  <option value="meditation.php">Meditation and Yoga</option>
 				  </select>
 		
-&nbsp&nbsp&nbsp <button type="button" class="pull-right" id="myBtn">Login</button>
+
 		<script>
 			document.getElementById("select").onchange=function(){
 				if(this.selectedIndex!==0){
@@ -71,47 +71,7 @@
 	
 	<div id="pagebody">
 	
-		<div class="container">
-  
-			<div class="modal fade" id="myModal" role="dialog">
-				<div class="modal-dialog">
-    
-		<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header" style="padding:35px 50px;">
-							<button type="button" class="close" data-dismiss="modal" &times;</button>
-							<h5><span class="glyphicon glyphicon-lock"></span> Login</h5>
-						</div>
-						<div class="modal-body" style="padding:40px 50px;">
-						<form role="form">
-							<div class="form-group">
-								<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-								<input type="text" class="form-control" id="usrname" placeholder="Enter email">
-							</div>
-							<div class="form-group">
-								<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-								<input type="text" class="form-control" id="psw" placeholder="Enter password">
-							</div>
-							<div class="checkbox">
-								<label><input type="checkbox" value="" checked>Remember me</label>
-							</div>
-							<button type="submit" class="btn1 btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-						</form>
-						</div>
-						<div class="modal-footer">
-							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-							<p>Not a member? <a href="#">Sign Up</a></p>
-							<p>Forgot <a href="#">Password?</a></p>
-						</div>
-					</div>
-      
-				</div>
-			</div> 
-		</div>
 		<br>
-
-
-
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
@@ -135,12 +95,13 @@
 						<!-- Item 1 -->
 						<div class="item active slide1">
 							<div class="row"><div class="container">
-								<div class="col-md-3 text-right">
-								  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
+								<div class="col-md-12 text-left">
+								<h3 data-animation="animated bounceInDown"> WILD LIFE IN SRI LANKA </h3>
+									<h4 data-animation="animated bounceInUp"> sri lanka is a island with high densiyt of bio-diversity. so wild life lovers this is the place for you.</h4>  
+								  
 								</div>
 								<div class="col-md-7 text-left">
-									<h3 data-animation="animated bounceInDown"> WILD LIFE IN SRI LANKA </h3>
-									<h4 data-animation="animated bounceInUp"> sri lanka is a island with high densiyt of bio-diversity. so wild life lovers this is the place for you.</h4>          
+									  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->      
 								 </div>
 							</div></div>
 						 </div> 

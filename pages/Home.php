@@ -138,12 +138,13 @@
 							<div class="row">
 								<div class="container">
 									<div class="col-md-9 text">
+									<h3 data-animation="animated bounceInDown">WELCOME</h3>
+									<h4 data-animation="animated bounceInUp">SRILANKA</h4>        
+									</div>
+								<div class="col-md-7 text-left">
 									<!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
-									</div>
-									<div class="col-md-7 text-left">
-										<h3 data-animation="animated bounceInDown">WELCOME</h3>
-										<h4 data-animation="animated bounceInUp">SRILANKA</h4>             
-									</div>
+									    
+								</div>
 								</div>
 							</div>
 						</div> 

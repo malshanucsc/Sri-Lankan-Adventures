@@ -25,14 +25,6 @@ border-radius: 5px;
  z-index: 1001;
 
 }
-#logo{
-	/*width:80%;*/
-}
-/*
-body{
-	background-color: #9999ff !important;
-   font-family: "calibri", sans-serif;
-}*/
 	
 #topic{ 
 font-family: 'Open Sans', sans-serif;
@@ -71,6 +63,7 @@ margin-left: 65%;
   border:2px solid #f1f1f1;
   /*border-color: #f1f1f1;*/
   border-style: solid;
+  overflow:hidden;
   border-radius: 5px;
 }
 
@@ -125,9 +118,7 @@ margin-left: 65%;
 	
 }
 
-.gallery:hover {
-    border: 1px solid #777;
-}
+
 
 .gallery img {
     width: 120%;
@@ -145,11 +136,7 @@ margin-left: 65%;
 	margin-left:10%;
 	width:80%;
 }
-#downbanner{
-	margin-top:0%;
-	margin-left:10%;
-	
-}
+
 
 #first-slider{
 	/*margin-top: 13%;*/
@@ -328,12 +315,12 @@ margin-left: 65%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/g1.jpg);
+    background-image: url(../images/ri1.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/g2.jpg);
+  background-image: url(../images/ri3.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
@@ -343,7 +330,7 @@ margin-left: 65%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/g3.jpg);
+  background-image: url(../images/ri2.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -365,16 +352,6 @@ margin-left: 65%;
 
 
 
-
-#contact_details{
-	margin-top:15%;
-	
-	
-}
-#availability_details{
-	margin-top:15%;
-	margin-left:15%;
-}
 li a,.drpbtn{
 	display:inline-block;
 	color:white;

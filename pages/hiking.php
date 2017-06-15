@@ -25,17 +25,17 @@
 				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
-							<a href="sea_side.php"> sea side</a>
-							<a href="river.php"> river side</a>
-							<a href="wildlife.php"> wild life</a>
+							<a href="sea_side.php"> Sea side</a>
+							<a href="river.php"> River side</a>
+							<a href="wildlife.php"> Wild life</a>
 							
 						</div>
 				</li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
 						<div class="dropdown-content">							
-							<a href="culture.php"> culture</a>
-							<a href="hill_country.php"> hill country</a>
-							<a href="historical.php"> historical</a>
+							<a href="culture.php"> Culture</a>
+							<a href="hill_country.php"> Hill country</a>
+							<a href="historical.php"> Historical</a>
 						</div>
 				</li>
 				<li role="presentation"><a href="reviews.php">Reviews</a></li>
@@ -94,12 +94,13 @@
 							<!-- Item 1 -->
 							<div class="item active slide1">
 								<div class="row"><div class="container">
-									<div class="col-md-3 text-right">
-									  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
+									<div class="col-md-12 text-left">
+									<h3 data-animation="animated bounceInDown">HIKING IN SRI LANKA</h3>
+										<h4 data-animation="animated bounceInUp">sri lankan hill side is ideaal for hiking lovers. there are many mountain sri lanka which can be categorize into different difficult of hiking levls..</h4>  
+									 
 									</div>
 									<div class="col-md-7 text-left">
-										<h3 data-animation="animated bounceInDown">HIKING IN SRI LANKA</h3>
-										<h4 data-animation="animated bounceInUp">sri lankan hill side is ideaal for hiking lovers. there are many mountain sri lanka which can be categorize into different difficult of hiking levls..</h4>             
+										 <!--  <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->         
 									 </div>
 								</div></div>
 							 </div> 
@@ -170,10 +171,10 @@
 			<div id="info">
 			<h4>Places for visit</h4>
 				<ul>
-					<li>hortan plains and world's end</li>
-					<li>knuckles</li>
-					<li>mulkirigala rock</li>
-					<li>sigiriya rock fort</li>
+					<li>Hortan plains and world's end</li>
+					<li>Knuckles</li>
+					<li>Mulkirigala rock</li>
+					<li>Sigiriya rock fort</li>
 				</ul>
 
 			</div>

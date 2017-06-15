@@ -25,14 +25,7 @@ border-radius: 5px;
  z-index: 1001;
 
 }
-#logo{
-	/*width:80%;*/
-}
-/*
-body{
-	background-color: #9999ff !important;
-   font-family: "calibri", sans-serif;
-}*/
+
 	
 #topic{ 
 font-family: 'Open Sans', sans-serif;
@@ -115,39 +108,12 @@ margin-left: 65%;
 	color:black;
 	
 }
+#info{
+	margin-left:15%;
 
-.gallery {
-    margin: 5px;
-    
-    float: left;
-    width: 180px;
-	margin-left:10%;
+	width:70%;
 	
-}
-
-.gallery:hover {
-    border: 1px solid #777;
-}
-
-.gallery img {
-    width: 120%;
-    height: 200px;
-	border-radius:30px;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-	font-weight:bold;
 	color:black;
-}
-#photoGallery{
-	margin-left:10%;
-	width:80%;
-}
-#downbanner{
-	margin-top:0%;
-	margin-left:10%;
 	
 }
 
@@ -329,22 +295,22 @@ margin-left: 65%;
 /*       Slides backgrounds     */
 /********************************/
 #first-slider .slide1 {
-    background-image: url(../images/walk.jpg);
+    background-image: url(../images/j1.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
-  background-image: url(../images/cool.jpg);
+  background-image: url(../images/j2.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide3 {
-  background-image: url(../images/picview.jpg);
+  background-image: url(../images/j3.jpg);
       background-size:100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide4 {
-  background-image: url(../images/fun.jpg);
+  background-image: url(../images/j4.jpg);
       background-size: 100% 100%;
     background-repeat: no-repeat;
 }

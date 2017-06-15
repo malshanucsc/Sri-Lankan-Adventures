@@ -25,14 +25,7 @@ border-radius: 5px;
  z-index: 1001;
 
 }
-#logo{
-	/*width:80%;*/
-}
-/*
-body{
-	background-color: #9999ff !important;
-   font-family: "calibri", sans-serif;
-}*/
+
 	
 #topic{ 
 font-family: 'Open Sans', sans-serif;
@@ -122,45 +115,6 @@ margin-left: 65%;
 	
 	color:black;
 }
-.gallery {
-    margin: 5px;
-    
-    float: left;
-    width: 180px;
-	margin-left:10%;
-	
-}
-
-.gallery:hover {
-    border: 1px solid #777;
-}
-
-.gallery img {
-    width: 120%;
-    height: 200px;
-	border-radius:30px;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-	font-weight:bold;
-	color:black;
-}
-#photoGallery{
-	margin-left:10%;
-	width:80%;
-}
-#downbanner{
-	margin-top:0%;
-	margin-left:10%;
-	
-}
-
-
-
-
-
 
 #first-slider{
 	/*margin-top: 13%;*/
@@ -359,27 +313,6 @@ margin-left: 65%;
     background-repeat: no-repeat;
 }
 
-#activities{
-	font-size:20px;
-	margin-left:15%;
-	width:70%;
-	margin-top: 5%;
-	font-weight:700px;
-	color:black;
-}
-
-
-
-
-#contact_details{
-	margin-top:15%;
-	
-	
-}
-#availability_details{
-	margin-top:15%;
-	margin-left:15%;
-}
 li a,.drpbtn{
 	display:inline-block;
 	color:white;

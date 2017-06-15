@@ -25,17 +25,17 @@
 				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
-							<a href="sea_side.php"> sea side</a>
-							<a href="river.php"> river side</a>
-							<a href="wildlife.php"> wild life</a>
+							<a href="sea_side.php"> Sea side</a>
+							<a href="river.php"> River side</a>
+							<a href="wildlife.php"> Wild life</a>
 							
 						</div>
 				</li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
 						<div class="dropdown-content">							
-							<a href="culture.php"> culture</a>
-							<a href="hill_country.php"> hill country</a>
-							<a href="historical.php"> historical</a>
+							<a href="culture.php"> Culture</a>
+							<a href="hill_country.php"> Hill country</a>
+							<a href="historical.php"> Historical</a>
 						</div>
 				</li>
 				<li role="presentation"><a href="reviews.php">Reviews</a></li>
@@ -94,12 +94,13 @@
 						<!-- Item 1 -->
 							<div class="item active slide1">
 								<div class="row"><div class="container">
-									<div class="col-md-3 text-right">
-									  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
+									<div class="col-md-12 text-left">
+									<h3 data-animation="animated bounceInDown">SRI LANKAN HILL COUNTRY </h3>
+										<h4 data-animation="animated bounceInUp"> The middle of sri lankan island is filled with lots of mountains.the amazing thing in sri lanka is how ythe climate and views are totally change dramatically when you travel from sea side to hill side.. .</h4>  
+									  
 									</div>
 									<div class="col-md-7 text-left">
-										<h3 data-animation="animated bounceInDown">SRI LANKAN HILL COUNTRY </h3>
-										<h4 data-animation="animated bounceInUp"> The middle of sri lankan island is filled with lots of mountains.the amazing thing in sri lanka is how ythe climate and views are totally change dramatically when you travel from sea side to hill side.. .</h4>          
+										 <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->       
 									 </div>
 								</div></div>
 							 </div> 

@@ -25,17 +25,17 @@
 				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
-							<a href="sea_side.php"> sea side</a>
-							<a href="river.php"> river side</a>
-							<a href="wildlife.php"> wild life</a>
+							<a href="sea_side.php"> Sea side</a>
+							<a href="river.php"> River side</a>
+							<a href="wildlife.php"> Wild life</a>
 							
 						</div>
 				</li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
 						<div class="dropdown-content">							
-							<a href="culture.php"> culture</a>
-							<a href="hill_country.php"> hill country</a>
-							<a href="historical.php"> historical</a>
+							<a href="culture.php"> Culture</a>
+							<a href="hill_country.php"> Hill country</a>
+							<a href="historical.php"> Historical</a>
 						</div>
 				</li>
 				<li role="presentation"><a href="reviews.php">Reviews</a></li>
@@ -95,12 +95,13 @@
 						<!-- Item 1 -->
 						<div class="item active slide1">
 							<div class="row"><div class="container">
-								<div class="col-md-3 text-right">
-								  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
+								<div class="col-md-12 text-left">
+								<h3 data-animation="animated bounceInDown">SRI LANKAN MEDITATION AND YOGA</h3>
+									<h4 data-animation="animated bounceInUp">sri lanka has a culture of praccticing meditation.soif you are interested in meditation sri lanka is the perfect place.</h4>   
+				
 								</div>
 								<div class="col-md-7 text-left">
-									<h3 data-animation="animated bounceInDown">SRI LANKAN MEDITATION AND YOGA</h3>
-									<h4 data-animation="animated bounceInUp">sri lanka has a culture of praccticing meditation.soif you are interested in meditation sri lanka is the perfect place.</h4>             
+									<!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->          
 								 </div>
 							</div></div>
 						 </div> 
@@ -190,10 +191,10 @@
 					
 					Benefits of yoga <br>
 					<ul>
-					<li>reduce extra fat and growing beauty</li>
-					<li>develop ppersonality</li>
-					<li>release tension and better sleep</li>
-					<li>cure common diseases/li>
+					<li>Reduce extra fat and growing beauty</li>
+					<li>Develop ppersonality</li>
+					<li>Release tension and better sleep</li>
+					<li>Cure common diseases/li>
 					<li>Health,Wealth and long life</li>
 					<li>Develop concentration and brainpower</li>
 					</ul>

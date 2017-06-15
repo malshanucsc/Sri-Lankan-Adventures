@@ -25,17 +25,17 @@
 				<li role="presentation" class="dropdown"><a href="Home.php">Home</a></li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Activities</a>
 						<div class="dropdown-content">
-							<a href="sea_side.php"> sea side</a>
-							<a href="river.php"> river side</a>
-							<a href="wildlife.php"> wild life</a>
+							<a href="sea_side.php"> Sea side</a>
+							<a href="river.php"> River side</a>
+							<a href="wildlife.php"> Wild life</a>
 							
 						</div>
 				</li>
 				<li role="presentation" class="dropdown"><a href="#" class="drpbtn">Places</a>
 						<div class="dropdown-content">							
-							<a href="culture.php"> culture</a>
-							<a href="hill_country.php"> hill country</a>
-							<a href="historical.php"> historical</a>
+							<a href="culture.php"> Culture</a>
+							<a href="hill_country.php"> Hill country</a>
+							<a href="historical.php"> Historical</a>
 						</div>
 				</li>
 				<li role="presentation"><a href="reviews.php">Reviews</a></li>
@@ -92,12 +92,13 @@
 						<!-- Item 1 -->
 						<div class="item active slide1">
 							<div class="row"><div class="container">
-								<div class="col-md-3 text-right">
-								  <!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->
+								<div class="col-md-12 text-left">
+								<h3 data-animation="animated bounceInDown">FRUITFUL SRILANKAN SOIL</h3>
+									<h4 data-animation="animated bounceInUp">sri lankan soil is very fruitful because of the climate variation any kind of plant life can be stored in this fabulous country..</h4>
+								  
 								</div>
 								<div class="col-md-7 text-left">
-									<h3 data-animation="animated bounceInDown">FRUITFUL SRILANKAN SOIL</h3>
-									<h4 data-animation="animated bounceInUp">sri lankan soil is very fruitful because of the climate variation any kind of plant life can be stored in this fabulous country..</h4>             
+									<!--   <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/pfmmo6qj1/window_domain.png"> -->             
 								 </div>
 							</div></div>
 						 </div> 
@@ -118,7 +119,7 @@
 						<div class="item slide3">
 							<div class="row"><div class="container">
 								<div class="col-md-7 text-left">
-									<h3 data-animation="animated bounceInDown">PICTURESUE VIEWS<h3>
+									<h3 data-animation="animated bounceInDown">PICTURESQUE VIEWS<h3>
 									<h4 data-animation="animated bounceInUp">the pearl of the india ocean sri lanka has got the plenty of beautiful places that you must visit. </h4>
 								 </div>
 								<div class="col-md-5 text-right">
@@ -156,7 +157,7 @@
 <br>
 <br>
 		<div id="paragraph">
-			<p><h3>PICTUREQUE ESTATES</h3> Hill country of Sri Lanka is rich with acres and acres of tea and rubber estates. This is due to the climate of the hill country region where rainfall is frequent.
+			<p><h3>PICTURESQUE ESTATES</h3> Hill country of Sri Lanka is rich with acres and acres of tea and rubber estates. This is due to the climate of the hill country region where rainfall is frequent.
 
 			As Sri Lanka is known as one of the world's largest tea exporters expansive Tea Estates in the valleys of Nuwara Eliya has made it the heart of the Sri Lankan tea industry. Once, Nuwara Eliya was the pleasure retreat of English Tea planters. So it has the feel of an English colony. Thus it is also called as "little England" due to the landscape design and various architecture of the area. Not only in Nuwara Eliya tea estates can be found in other wet zones in the south of Sri Lanka such as Deniyaya and Galle tea estates which produce a different flavored tea from that of hill country tea estates. A romantic stroll around the tea estates, an evening walk, taking pictures amidst lush green tea bushes, watching tea pluckers at their work and learning of the process of tea making and tasting freshly made tea are very refreshing activities.
 

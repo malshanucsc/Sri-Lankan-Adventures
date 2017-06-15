@@ -65,7 +65,7 @@ margin-left: 65%;
 }
 
 #pagebody{
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 7.5%;
   width: 100%;
   background-color: #e6ffd7;
@@ -78,68 +78,14 @@ margin-left: 65%;
 }
 
 
-#upmenu{
-  position: fixed;
-  margin-top: 6.5%;
-  z-index: 1001;
-    margin-left: 20%;
-}
 
-.nav-pills a{
-	color:black;
-	font-weight:bold;
-	font-size:20px;
-	background-color: #336600;
-	
-}
-
-li a,.drpbtn{
-	display:inline-block;
-	color:white;
-	text-align:center;
-	padding:10px 10px;
-	
-	
-}
-li a:hover, .dropdown:hover .drpbtn{
-	
-	background-color:white;
-}
-
-li.dropdown{
-	display:inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
- /*   min-width: 160px;*/
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 9px 9px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 div #logout{
-	margin-top:72px;
+	margin-top:92px;
 	margin-left:93%;
 
 }
-#logout{
-  display: block;
-}
-#logout a:link, a:visited{
+
+#logout a:link,#logout a:visited{
 	
 	background-color:  #a3a375;
     color: white;
@@ -149,7 +95,7 @@ div #logout{
     display: inline-block;
 	
 }
-#logout a:hover,a:active{
+#logout a:hover, #logout a:active{
 
 	background-color: #1a75ff;
 }

@@ -25,20 +25,10 @@ border-radius: 5px;
  z-index: 1001;
 
 }
-#logo{
-	/*width:80%;*/
-}
-/*
-body{
-	background-color: #9999ff !important;
-   font-family: "calibri", sans-serif;
-}*/
-	
+
 #topic{ 
 font-family: 'Open Sans', sans-serif;
 		color:black;
-
-
 		}
 
 #topic h1{
@@ -153,11 +143,8 @@ z-index: 1001;
 	margin-left:10%;
 	width:80%;
 }
-#downbanner{
-	margin-top:0%;
-	margin-left:10%;
-	
-}
+
+
 #service{
 	font-size:20px;
 	margin-left:15%;
